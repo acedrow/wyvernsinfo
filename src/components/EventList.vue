@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import EventCard, { Event } from './EventCard.vue'
-import dayjs from 'dayjs/esm/index.js'
+import EventCard from './EventCard.vue'
 
 //defineProps<{ msg: string }>()
 
@@ -16,10 +15,7 @@ onMounted(async () => {
   ).catch((error) => {
     errorMessage.value = error.message
   })
-  calendarEvents.value =
-    result.items.filter((calItem: Event) =>
-      calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime)
-        .isAfter(dayjs()))
+  calendarEvents.value = result.items
   console.log(result.items)
 })
 </script>
@@ -38,5 +34,7 @@ onMounted(async () => {
   height: 100px;
 }
 
-#outer-container {}
+#outer-container {
+
+}
 </style>

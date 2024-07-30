@@ -3,14 +3,13 @@ import { onMounted, ref } from 'vue';
 import EventCard, { Event } from './EventCard.vue'
 import dayjs from 'dayjs/esm/index.js'
 
-//defineProps<{ msg: string }>()
-
 let calendarEvents = ref({})
 let errorMessage = ref("")
 
 onMounted(async () => {
+  const baseUrl = "https://www.googleapis.com/calendar/v3/calendars"
   const result = await fetch(
-    `https://www.googleapis.com/calendar/v3/calendars/mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com/events?key=AIzaSyCdzng7YOC1YksouUz714HqPRr7zgxBu0Y&timeMin=2024-07-23T00:00:00Z`
+    baseUrl + `/mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com/events?key=${import.meta.env.VITE_CALENDAR_API_KEY}&timeMin=2024-07-23T00:00:00Z`
   ).then((response) =>
     response.json()
   ).catch((error) => {

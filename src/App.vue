@@ -3,5 +3,5 @@ import EventList from './components/EventList.vue';
 </script>
 
 <template>
-  <EventList msg="wyverns.info" />
+  <EventList />
 </template>

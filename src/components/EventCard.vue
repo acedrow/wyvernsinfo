@@ -26,7 +26,7 @@ watch(expanded, (value) => {
         <div class="col">
             <div class="row" id="header-row">
                 <h2>{{ event.summary }}</h2>
-                <button id="expand-button" @click="expanded = !expanded">{{ ">" }}</button>
+                <button v-if="event?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">" }}</button>
 
             </div>
             <p v-if="expanded">{{ event.description }}</p>

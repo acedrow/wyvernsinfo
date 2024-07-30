@@ -15,6 +15,7 @@ const bydayToDayString = {
     su: "Sunday"
 }
 
+//TODO: regex!
 const parseRecurrence = (recurrence: string | undefined) => {
     console.log('parseRecurrence', recurrence)
     if (!recurrence || recurrence.length < 1) {
@@ -26,15 +27,18 @@ const parseRecurrence = (recurrence: string | undefined) => {
         return "Each " + bydayToDayString[byday]
     }
 }
-const recurrence = parseRecurrence(props.calEvent?.recurrence?.[0])
+const recurrence = ref(parseRecurrence(props.calEvent?.recurrence?.[0]))
 
 </script>
 
 <template>
-    <div class="row">
-        {{ calEvent?.start?.date
+    <span class="row">
+        <span v-if="!recurrence"> {{ calEvent?.start?.date
             ? dayjs(calEvent?.start.date).format('MM/DD/YYYY')
             : dayjs(calEvent?.start.dateTime).format('MM/DD/YYYY - h:m') }}
-        {{ parseRecurrence(calEvent?.recurrence?.[0]) }}
-    </div>
+        </span>
+        <span v-if="recurrence"> {{ parseRecurrence(calEvent?.recurrence?.[0]) + " - " +
+            dayjs(calEvent?.start.dateTime).format('h:m') }}
+        </span>
+    </span>
 </template>

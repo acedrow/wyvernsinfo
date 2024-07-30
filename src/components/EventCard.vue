@@ -1,13 +1,18 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
+import dayjs from 'dayjs/esm/index.js'
 
 type Event = {
     summary: string;
     description: string;
+    start: {
+        date?: string;
+        dateTime?: string;
+    }
 };
 
-defineProps<{ event: Event }>()
-
+const props = defineProps<{ calEvent: Event }>()
+console.log('start', dayjs(props.calEvent?.start?.date ?? props.calEvent?.start?.dateTime))
 let expanded = ref<boolean>(false)
 let computedTransform = ref<string>("rotate(0)")
 watch(expanded, (value) => {
@@ -24,12 +29,12 @@ watch(expanded, (value) => {
 <template>
     <div class="event-card">
         <div class="col">
-            <div class="row" id="header-row">
-                <h2>{{ event.summary }}</h2>
-                <button v-if="event?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">" }}</button>
-
+            <div class="row header-row" >
+                <h2>{{ calEvent.summary }}</h2>
+                <button v-if="calEvent?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">"
+                    }}</button>
             </div>
-            <p v-if="expanded">{{ event.description }}</p>
+            <p v-if="expanded">{{ calEvent.description }}</p>
         </div>
     </div>
 </template>
@@ -41,7 +46,7 @@ watch(expanded, (value) => {
     margin: 10px 0;
 }
 
-#header-row {
+.row.header-row {
     align-items: end;
     justify-content: space-between;
 }

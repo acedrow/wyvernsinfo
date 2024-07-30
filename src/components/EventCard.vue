@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 type Event = {
     summary: string;
@@ -8,14 +8,28 @@ type Event = {
 
 defineProps<{ event: Event }>()
 
-const expanded = ref(false)
+let expanded = ref<boolean>(false)
+let computedTransform = ref<string>("rotate(0)")
+watch(expanded, (value) => {
+    if (value) {
+        computedTransform.value = "rotate(90deg)"
+    } else {
+        computedTransform.value = "rotate(0)"
+    }
+});
+
+
 </script>
 
 <template>
-    <div class="eventCard">
+    <div class="event-card">
         <div class="col">
-            <button @click="expanded = !expanded">{{ expanded ? ">" : "<" }}</button>
-                    <p v-if="expanded">Vue is awesome!</p>
+            <div class="row" id="header-row">
+                <h2>{{ event.summary }}</h2>
+                    <button id="expand-button" @click="expanded = !expanded">{{ ">" }}</button>
+
+            </div>
+            <p v-if="expanded">{{ event.description }}</p>
         </div>
     </div>
 
@@ -23,7 +37,22 @@ const expanded = ref(false)
 </template>
 
 <style scoped>
-.read-the-docs {
-    color: #888;
+.event-card {
+    background-color: rgb(52, 89, 57);
 }
+
+#header-row {
+    align-items: end;
+    justify-content: space-between;
+}
+
+#expand-button {
+    background-color: transparent;
+    width: fit-content;
+    font-size: 28px;
+    font-weight: 800;
+    transform: v-bind('computedTransform');
+    transition: transform 0.5s ease
+}
+
 </style>

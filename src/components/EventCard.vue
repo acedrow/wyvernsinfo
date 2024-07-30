@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import dayjs from 'dayjs/esm/index.js'
 import DateLine from './DateLine.vue';
 
 export type Event = {
@@ -13,7 +12,7 @@ export type Event = {
     recurrence?: [string] | undefined;
 };
 
-const props = defineProps<{ calEvent: Event }>()
+defineProps<{ calEvent: Event }>()
 let expanded = ref<boolean>(false)
 let computedTransform = ref<string>("rotate(0)")
 watch(expanded, (value) => {
@@ -47,6 +46,7 @@ watch(expanded, (value) => {
     background-color: rgb(52, 89, 57);
     width: 320px;
     margin: 10px 0;
+    padding: 0 0 7px 7px
 }
 
 .row.header-row {

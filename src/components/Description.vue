@@ -19,28 +19,20 @@ watch(fightersExpanded, (value) => {
 
 <template>
     <p v-if="expanded && audienceDesc">{{ audienceDesc }}</p>
-    <Transition>
-        <div v-if="fighterSection && expanded">
-            <div class="row fighter-row">
-                <h3>Fighter Info</h3>
-                <button class="e-button expand" @click="fightersExpanded = !fightersExpanded">
-                    {{ ">" }} </button>
-            </div>
-            <p v-if="fightersExpanded" class="fighter-desc"> {{ fighterSection }} </p>
-
-
-
+    <div v-if="fighterSection && expanded">
+        <div class="row fighter-row">
+            <h3>Fighter Info</h3>
+            <button class="e-button expand" @click="fightersExpanded = !fightersExpanded">
+                {{ ">" }} </button>
         </div>
-    </Transition>
+        <p v-if="fightersExpanded" class="fighter-desc"> {{ fighterSection }} </p>
+
+
+
+    </div>
 </template>
 
 <style scoped>
-.v-leave-active {
-  transition: height 0.5s ease;
-}
-
-.fighter-desc {}
-
 .e-button.expand {
     transform: v-bind('computedTransform');
     transition: transform 0.5s ease;

@@ -53,16 +53,16 @@ watch(expanded, (value) => {
     background-color: rgb(52, 89, 57);
     width: 320px;
     margin: 10px 0;
-    padding: 0 0 7px 7px
+    padding: 0 7px 7px 7px
 }
 
 .row.header-row {
-    align-items: start;
+    align-items: end;
     justify-content: space-between;
 }
 
 .e-button.expand {
     transform: v-bind('computedTransform');
-    transition: transform 0.5s ease
+    transition: transform 0.5s ease;
 }
 </style>

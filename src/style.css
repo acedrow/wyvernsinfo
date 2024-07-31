@@ -27,10 +27,16 @@ h1 {
   margin: 25px 0
 }
 
-h2 {
+h3 {
   font-size: 20px;
   margin: 0;
+  line-height: 28px;
 }
+
+p{
+  margin-bottom: 0;
+}
+
 button {
   border: none;
   font-family: inherit;
@@ -51,4 +57,11 @@ button {
 #app {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.e-button {
+  background-color: transparent;
+  width: fit-content;
+  font-size: 28px;
+  font-weight: 800;
 }

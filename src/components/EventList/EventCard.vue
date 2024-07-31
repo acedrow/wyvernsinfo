@@ -1,11 +1,16 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import DateLine from './DateLine.vue';
+import DateLine from './DateTime.vue';
+import Description from '../Description.vue';
 
 export type Event = {
     summary: string;
     description: string;
     start: {
+        date?: string;
+        dateTime?: string;
+    }
+    end: {
         date?: string;
         dateTime?: string;
     }
@@ -31,12 +36,14 @@ watch(expanded, (value) => {
     <div class="event-card">
         <div class="col">
             <div class="row header-row">
-                <h2>{{ calEvent.summary }}</h2>
-                <button v-if="calEvent?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">"
+                <h3>{{ calEvent.summary }}</h3>
+                <button v-if="calEvent?.description?.length > 0" class="e-button expand"
+                    @click="expanded = !expanded">{{
+                        ">"
                     }}</button>
             </div>
-            <DateLine :calEvent="calEvent"/>
-            <p v-if="expanded">{{ calEvent.description }}</p>
+            <DateLine :calEvent="calEvent" />
+            <Description :description="calEvent?.description" :expanded="expanded" />
         </div>
     </div>
 </template>
@@ -50,15 +57,11 @@ watch(expanded, (value) => {
 }
 
 .row.header-row {
-    align-items: end;
+    align-items: start;
     justify-content: space-between;
 }
 
-#expand-button {
-    background-color: transparent;
-    width: fit-content;
-    font-size: 28px;
-    font-weight: 800;
+.e-button.expand {
     transform: v-bind('computedTransform');
     transition: transform 0.5s ease
 }

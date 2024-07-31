@@ -14,6 +14,11 @@ const bydayToDayString = {
     su: "Sunday"
 }
 
+const dateFormat = "MM/DD/YY"
+const dtDate = 'MM/DD/YY'
+const dtTime = 'h:mmA'
+
+
 const parseRecurrence = (recurrence: string | undefined) => {
     console.log('parseRecurrence', recurrence)
     if (!recurrence || recurrence.length < 1) {
@@ -28,13 +33,24 @@ const parseRecurrence = (recurrence: string | undefined) => {
 </script>
 
 <template>
-    <span class="row">
+    <div class="row">
         <span v-if="!calEvent.recurrence">
-            {{ calEvent?.start?.date
-                ? dayjs(calEvent?.start.date).format('MM/DD/YYYY')
-                : dayjs(calEvent?.start.dateTime).format('MM/DD/YYYY - h:m') }}</span>
+            {{
+                dayjs(calEvent?.start.date).format(dateFormat)
+                + " - "
+                + dayjs(calEvent?.end.date).format(dateFormat)
+            }}</span>
         <span v-if="calEvent.recurrence">
-            {{ parseRecurrence(calEvent?.recurrence?.[0]) + dayjs(calEvent?.start.dateTime).format('- h:m') }}
+            {{ parseRecurrence(calEvent?.recurrence?.[0])
+                + dayjs(calEvent?.start.dateTime).format('- h:mm') }}
         </span>
-    </span>
+    </div>
+    <div class="row" v-if="calEvent?.start.dateTime">
+        <span v-if="!calEvent.recurrence">
+            {{
+                dayjs(calEvent?.start.dateTime).format(dtTime)
+                + " - "
+                + dayjs(calEvent?.end.dateTime).format(dtTime)
+            }}</span>
+    </div>
 </template>

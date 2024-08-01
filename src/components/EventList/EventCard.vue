@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import DateTime from './DateTime.vue';
-import Description from '../Description.vue';
+import Description from './Description.vue';
 import Location from './Location.vue';
 import { CalendarEvent } from './types';
 

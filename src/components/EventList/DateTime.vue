@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import dayjs from 'dayjs/esm/index.js'
-import { Event } from './EventCard.vue';
+import { CalendarEvent } from './types';
 
-const props = defineProps<{ calEvent: Event }>()
+const props = defineProps<{ calEvent: CalendarEvent }>()
 
 const bydayToDayString = {
     mo: "Monday",

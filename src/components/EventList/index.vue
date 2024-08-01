@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import EventCard from './EventCard.vue'
+import EventCard from './EventCard/index.vue'
 import dayjs from 'dayjs/esm/index.js'
 import { CalendarEvent } from './types';
 

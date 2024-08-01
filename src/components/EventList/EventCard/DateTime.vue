@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import dayjs from 'dayjs/esm/index.js'
-import { CalendarEvent } from './types';
+import { CalendarEvent } from '../types';
 
 const props = defineProps<{ calEvent: CalendarEvent }>()
 

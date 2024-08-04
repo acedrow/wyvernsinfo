@@ -13,18 +13,49 @@ export function ordinal_suffix_of(i: number) {
   return i + "th";
 }
 
-const recurrenceRegex = /RRULE:FREQ=(\w+);BYDAY=(\d*)(\w+)/gmi
+const recurrenceRegex = /RRULE:FREQ=(\w+);BYDAY=(\d*)(\w+)/gim;
 
 type RecurrenceValues = {
   frequency: string | undefined;
-  dayNumber: string | undefined;
+  dayNumber: number | undefined;
   dayOfWeek: string | undefined;
-}
+};
 
-export const parseRecurrenceString (recurrence: string) : RecurrenceValues => {
-    const matches = [...recurrence.matchAll(recurrenceRegex)]
-    console.log('matches', matches)
-    return ({
-      frequency: matches[0];
-    })
-}
+const bydayToDayString = {
+  mo: "Monday",
+  tu: "Tuesday",
+  we: "Wednesday",
+  th: "Thursday",
+  fr: "Friday",
+  sa: "Saturday",
+  su: "Sunday",
+};
+
+export const parseRecurrenceString = (recurrence: string): string => {
+  const matches = [...recurrence.matchAll(recurrenceRegex)];
+  const values = {
+    frequency: matches[0][1].toLowerCase(),
+    dayNumber: parseInt(matches[0][2].toLowerCase()),
+    dayOfWeek: matches[0][3].toLowerCase(),
+  };
+
+  console.log("values", values);
+
+  return `
+  ${values.frequency === "weekly" ? "Each" : ""}
+  ${
+    values.frequency === "monthly"
+      ? `${ordinal_suffix_of(values.dayNumber)}`
+      : ""
+  }
+  ${
+    //@ts-ignore
+    bydayToDayString[values.dayOfWeek]
+  }
+    ${
+    values.frequency === "monthly"
+      ? `of the month`
+      : ""
+  }
+  `;
+};

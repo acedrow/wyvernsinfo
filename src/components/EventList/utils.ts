@@ -12,3 +12,19 @@ export function ordinal_suffix_of(i: number) {
   }
   return i + "th";
 }
+
+const recurrenceRegex = /RRULE:FREQ=(\w+);BYDAY=(\d*)(\w+)/gmi
+
+type RecurrenceValues = {
+  frequency: string | undefined;
+  dayNumber: string | undefined;
+  dayOfWeek: string | undefined;
+}
+
+export const parseRecurrenceString (recurrence: string) : RecurrenceValues => {
+    const matches = [...recurrence.matchAll(recurrenceRegex)]
+    console.log('matches', matches)
+    return ({
+      frequency: matches[0];
+    })
+}

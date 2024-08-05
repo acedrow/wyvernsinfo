@@ -35,7 +35,7 @@ const parsedRecurrence = props.calEvent?.recurrence?.[0] ?
         </span>
     </div>
     <div class="row" v-if="calEvent?.start.dateTime">
-        <span v-if="!calEvent.recurrence">
+        <span>
             {{
                 startTime
                 + " - "

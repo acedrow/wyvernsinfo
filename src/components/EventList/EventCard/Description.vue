@@ -3,8 +3,8 @@ import { ref, watch } from "vue";
 
 const props = defineProps<{ description: string; expanded: boolean }>();
 
-const audienceDesc = props.description.split("Fighters:")[0] || undefined;
-const fighterSection = props.description.split("Fighters:")[1] || undefined;
+const audienceDesc = props.description.split("Fighters:")[0] ?? undefined;
+const fighterSection = props.description.split("Fighters:")[1] ?? undefined;
 const fightersExpanded = ref(false);
 
 let computedTransform = ref<string>("rotate(0)")
@@ -18,14 +18,14 @@ watch(fightersExpanded, (value) => {
 </script>
 
 <template>
-    <p v-if="expanded && audienceDesc">{{ audienceDesc }}</p>
+    <p v-if="expanded && audienceDesc" v-html="audienceDesc"></p>
     <div v-if="fighterSection && expanded">
         <div class="row fighter-row">
             <h3>Fighter Info</h3>
             <button class="e-button expand" @click="fightersExpanded = !fightersExpanded">
                 {{ ">" }} </button>
         </div>
-        <p v-if="fightersExpanded" class="fighter-desc"> {{ fighterSection }} </p>
+        <p v-if="fightersExpanded" class="fighter-desc" v-html="fighterSection"></p>
 
 
 

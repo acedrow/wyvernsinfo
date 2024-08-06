@@ -1,24 +1,20 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, Ref, ref, watch } from 'vue';
 import EventCard from './EventCard/index.vue'
 import dayjs from 'dayjs/esm/index.js'
 import { CalendarEvent } from './types';
+import { filterEvents, sortEvents } from './utils';
 
-let calendarEvents = ref({})
+let allEvents: Ref<CalendarEvent[]> = ref([])
+let shownEvents: Ref<CalendarEvent[]> = ref([])
 let errorMessage = ref("")
+let showEvents = ref(true);
+let showPractices = ref(true);
+let showMeetings = ref(true);
 
-const sortEvents = (a: CalendarEvent, b: CalendarEvent): number => {
-  if (a.recurrence) {
-    if (b.recurrence) {
-      return 0
-    }
-    return -1
-  }
-  return (
-    dayjs(a?.start?.date ?? a.start.dateTime)
-      .isBefore(dayjs(b?.start?.date ?? b.start.dateTime)) ? -1 : 1
-  )
-}
+watch([showEvents, showPractices, showMeetings], ([newShowEvents, newShowPractices, newShowMeetings]) => {
+  shownEvents.value = filterEvents(newShowEvents, newShowPractices, newShowMeetings, allEvents.value)
+})
 
 onMounted(async () => {
   const baseUrl = "https://www.googleapis.com/calendar/v3/calendars"
@@ -35,17 +31,33 @@ onMounted(async () => {
 
   futureEvents.sort(sortEvents)
 
-  calendarEvents.value = futureEvents
+  allEvents.value = futureEvents
+  shownEvents.value = futureEvents
 
 })
 </script>
 
 <template>
-  <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
-  <EventCard v-for="event in calendarEvents" :googleEvent="event"></EventCard>
+  <div class="outer-container">
+    Filters: <br />
+    Events: <input type="checkbox" v-model="showEvents">
+    Practices: <input type="checkbox" v-model="showPractices">
+    Meetings: <input type="checkbox" v-model="showMeetings">
+    <div v-if="!showEvents && !showPractices && !showMeetings">
+      No events to display - all filters are disabled.
+    </div>
+    <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
+    <EventCard v-for="event in shownEvents" :googleEvent="event"></EventCard>
+  </div>
 </template>
 
 <style scoped>
+.outer-container {
+  border-top: 2px solid white;
+  margin-top: 10px;
+  padding-top: 10px;
+  min-height: 100%
+}
 .error {
   background-color: rgb(95, 5, 5);
   height: 100px;

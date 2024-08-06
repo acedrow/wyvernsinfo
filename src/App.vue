@@ -15,6 +15,8 @@ import TopLinks from './components/TopLinks/index.vue';
 <style scoped>
 
 .outer-container {
-  width: 320px;
+  min-width: 320px;
+  max-width: 400px;
+  height: 100vh;
 }
 </style>

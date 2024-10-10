@@ -8,7 +8,7 @@ import TopLinks from './components/TopLinks/index.vue';
 <template>
   <div class="app-container">
     <!-- <Sidebar/> -->
-    <div>
+    <div class="main-column">
       <TopLinks />
       <h1>wyverns.info</h1>
       <p>Official source of event calendar, practice schedule, and contact info for the Twin Cities Wyverns -
@@ -26,5 +26,7 @@ import TopLinks from './components/TopLinks/index.vue';
   display: flex;
 }
 
-.main-column {}
+.main-column {
+  width: 100%;
+}
 </style>

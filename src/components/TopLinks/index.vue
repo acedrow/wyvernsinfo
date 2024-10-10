@@ -3,6 +3,7 @@ import FacebookLink from './FacebookLink.vue';
 import EmailLink from './EmailLink.vue';
 import CalendarLink from './CalendarLink.vue';
 import EventbriteLink from './EventbriteLink.vue';
+import DiscordLink from './DiscordLink.vue';
 
 const SvgStrokeColor = " #ffffffde"
 const size = "30"
@@ -14,6 +15,7 @@ const size = "30"
         <FacebookLink :strokeColor="SvgStrokeColor" :size="size" />
         <EventbriteLink :strokeColor="SvgStrokeColor" :size="size" />
         <EmailLink :strokeColor="SvgStrokeColor" :size="size" />
+        <DiscordLink :strokeColor="SvgStrokeColor" :size="size"/>
     </div>
 </template>
 

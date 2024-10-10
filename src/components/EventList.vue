@@ -24,7 +24,7 @@ onMounted(async () => {
   <div id="outer-container">
     <h1>wyverns.info</h1>
     <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
-    <EventCard v-for="event in calendarEvents" :event="event"></EventCard>
+    <EventCard v-for="event in calendarEvents" :calEvent="event"></EventCard>
   </div>
 </template>
 

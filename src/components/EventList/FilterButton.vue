@@ -19,6 +19,7 @@ watch(() => props.shown, (newShown) => {
     margin: 0 2px;
     border-radius: 5px;
     height: 20px;
+    text-wrap: nowrap;
 }
 
 .active {

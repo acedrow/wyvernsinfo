@@ -16,7 +16,7 @@ watch(() => props.shown, (newShown) => {
 
 <style scoped>
 .filter-button {
-    margin: 0 2px;
+    margin: 2px 2px 2px 0;
     border-radius: 5px;
     height: 20px;
     text-wrap: nowrap;

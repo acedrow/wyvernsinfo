@@ -52,7 +52,7 @@ onMounted(async () => {
 <template>
   <h2 class="cal-header">Calendar</h2>
   <div class="row filters-container">
-    <h3>Filters:</h3>
+    <h3 class="filters-header">Filters:</h3>
     <div class="row buttons-container">
       <FilterButton :shown="showEvents" label="Show Events" :callback="onClickEventsFilter" />
       <FilterButton :shown="showPractices" label="Show Practices" :callback="onClickPracticeFilter" />
@@ -64,13 +64,6 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-.outer-container {
-  border-top: 2px solid white;
-  margin-top: 10px;
-  padding-top: 10px;
-  min-height: 100%
-}
-
 .cal-header {
   border-top: solid #ffffffde;
   margin-top: 12px;
@@ -80,12 +73,18 @@ onMounted(async () => {
 .row.filters-container {
   margin-bottom: 10px;
   min-height: 30px;
-  align-items: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filters-header {
+  margin-right: 2px;
 }
 
 .row.buttons-container {
   align-items: center;
-  min-height: 30px;
+  margin-top: 2px;
+  flex-wrap: wrap;
 }
 
 .error {

@@ -20,6 +20,12 @@ body {
   min-height: 100vh;
 }
 
+#app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 700;
@@ -73,12 +79,6 @@ button {
 .row.underlined {
   padding-bottom: 3px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.87);
-}
-
-#app {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
 }
 
 .e-button {

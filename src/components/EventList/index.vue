@@ -69,7 +69,11 @@ onMounted(async () => {
 }
 
 .filters-container {
-  margin: 10px 0
+  margin: 10px 0;
+  padding-top: 7px;
+  border-top: solid #ffffffde;
+  font-weight: 600;
+
 }
 
 .error {

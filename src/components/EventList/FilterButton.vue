@@ -17,10 +17,12 @@ watch(() => props.shown, (newShown) => {
 <style scoped>
 .filter-button {
     margin: 0 2px;
+    border-radius: 5px;
 }
 
 .active {
     color: white;
+    background-color: black;
 }
 
 .inactive {

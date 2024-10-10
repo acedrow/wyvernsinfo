@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #ffffffde;
   background-color: #242424;
 
   font-synthesis: none;
@@ -24,7 +24,8 @@ body {
 h1 {
   font-size: 48px;
   line-height: 1.1;
-  margin: 25px 0;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 h3 {
@@ -37,7 +38,7 @@ p {
 }
 
 a {
-  color: rgb(190, 190, 36)
+  color: rgb(190, 190, 36);
 }
 
 button {

@@ -15,12 +15,6 @@ export function ordinal_suffix_of(i: number) {
 
 const recurrenceRegex = /RRULE:FREQ=(\w+);BYDAY=(\d*)(\w+)/gim;
 
-type RecurrenceValues = {
-  frequency: string | undefined;
-  dayNumber: number | undefined;
-  dayOfWeek: string | undefined;
-};
-
 const bydayToDayString = {
   mo: "Monday",
   tu: "Tuesday",

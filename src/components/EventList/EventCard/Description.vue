@@ -35,6 +35,7 @@ watch(fightersExpanded, (value) => {
 </template>
 
 <style scoped>
+
 .e-button.expand {
     transform: v-bind('computedTransform');
     transition: transform 0.5s ease;

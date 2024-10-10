@@ -2,7 +2,7 @@
 import dayjs from 'dayjs/esm/index.js'
 import { Event } from './EventCard.vue';
 
-defineProps<{ calEvent: Event }>()
+const props = defineProps<{ calEvent: Event }>()
 
 const bydayToDayString = {
     mo: "Monday",
@@ -16,6 +16,17 @@ const bydayToDayString = {
 
 const dateFormat = "MM/DD/YY"
 const timeFormat = 'h:mmA'
+
+const startDate =
+    dayjs(props.calEvent?.start.date
+        ?? props.calEvent?.start.dateTime).format(dateFormat)
+const endDate =
+    dayjs(props.calEvent?.end.date
+        ?? props.calEvent?.end.dateTime).format(dateFormat)
+
+const startTime = dayjs(props.calEvent?.start.dateTime).format(timeFormat)
+
+const endTime = dayjs(props.calEvent?.end.dateTime).format(timeFormat)
 
 
 const parseRecurrence = (recurrence: string | undefined) => {
@@ -34,22 +45,19 @@ const parseRecurrence = (recurrence: string | undefined) => {
 <template>
     <div class="row">
         <span v-if="!calEvent.recurrence">
-            {{
-                dayjs(calEvent?.start.date).format(dateFormat)
-                + " - "
-                + dayjs(calEvent?.end.date).format(dateFormat)
-            }}</span>
+            <span>{{ startDate }}</span>
+            <span v-if="startDate !== endDate"> {{ " - " + endDate }}</span>
+        </span>
         <span v-if="calEvent.recurrence">
-            {{ parseRecurrence(calEvent?.recurrence?.[0])
-                + dayjs(calEvent?.start.dateTime).format('- h:mm') }}
+            {{ parseRecurrence(calEvent?.recurrence?.[0]) }}
         </span>
     </div>
     <div class="row" v-if="calEvent?.start.dateTime">
         <span v-if="!calEvent.recurrence">
             {{
-                dayjs(calEvent?.start.dateTime).format(timeFormat)
+                startTime
                 + " - "
-                + dayjs(calEvent?.end.dateTime).format(timeFormat)
+                + endTime
             }}</span>
     </div>
 </template>

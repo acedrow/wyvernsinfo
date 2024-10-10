@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import DateLine from './DateTime.vue';
+import DateTime from './DateTime.vue';
 import Description from '../Description.vue';
 
 export type Event = {
@@ -15,6 +15,7 @@ export type Event = {
         dateTime?: string;
     }
     recurrence?: [string] | undefined;
+    location?: string;
 };
 
 defineProps<{ calEvent: Event }>()
@@ -42,7 +43,8 @@ watch(expanded, (value) => {
                         ">"
                     }}</button>
             </div>
-            <DateLine :calEvent="calEvent" />
+            <DateTime :calEvent="calEvent" />
+            {{ calEvent.location }}
             <Description :description="calEvent?.description" :expanded="expanded" />
         </div>
     </div>

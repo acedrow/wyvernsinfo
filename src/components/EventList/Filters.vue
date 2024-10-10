@@ -1,6 +1,5 @@
 <script setup lang="ts">
 defineProps<{ showEvents: boolean, showPractices: boolean, showMeetings: boolean }>()
-const showEventsModel = defineModel()
 
 
 </script>
@@ -9,7 +8,7 @@ const showEventsModel = defineModel()
     FILTERS COMPONENT:
     Filters: <br />
     
-    Events: <input type="checkbox" @input="console.log('event', event.target.value)"/>
+    <!-- Events: <input type="checkbox" @input="console.log('event', event.target.value)"/> -->
     Practices: <input type="checkbox" :value="showPractices"/>
     Meetings: <input type="checkbox" :value="showMeetings"/>
     <!-- <div v-if="!showEvents && !showPractices && !showMeetings">

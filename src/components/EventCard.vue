@@ -13,7 +13,7 @@ export type Event = {
     recurrence?: [string] | undefined;
 };
 
-const props = defineProps<{ calEvent: Event }>()
+defineProps<{ calEvent: Event }>()
 let expanded = ref<boolean>(false)
 let computedTransform = ref<string>("rotate(0)")
 watch(expanded, (value) => {
@@ -30,15 +30,14 @@ watch(expanded, (value) => {
 
 <template>
     <div class="event-card">
-        <div class="col">
-            <div class="row header-row">
-                <h2>{{ calEvent.summary }}</h2>
-                <button v-if="calEvent?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">"
-                    }}</button>
-            </div>
-            <DateLine :calEvent="calEvent"/>
-            <p v-if="expanded">{{ calEvent.description }}</p>
-        </div>
+        <span class="row header-row">
+            <h2>{{ calEvent.summary }}</h2>
+            <button v-if="calEvent?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">"
+                }}</button>
+        </span>
+        <DateLine :calEvent="calEvent" />
+        <span>{{ }}</span>
+        <p v-if="expanded">{{ calEvent.description }}</p>
     </div>
 </template>
 
@@ -47,6 +46,7 @@ watch(expanded, (value) => {
     background-color: rgb(52, 89, 57);
     width: 320px;
     margin: 10px 0;
+    padding: 7px;
 }
 
 .row.header-row {
@@ -55,7 +55,6 @@ watch(expanded, (value) => {
 }
 
 #expand-button {
-    background-color: transparent;
     width: fit-content;
     font-size: 28px;
     font-weight: 800;

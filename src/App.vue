@@ -9,7 +9,7 @@ import TopMenu from './components/TopMenu/index.vue';
     <div class="main-column">
       <TopMenu />
       <p class="description">Official source of event calendar, practice schedule, and contact info for the Twin Cities Wyverns -
-        Minnesota's first and only armored combat team.</p>
+        Minnesota's premier armored combat team</p>
       <EventList />
     </div>
   </div>

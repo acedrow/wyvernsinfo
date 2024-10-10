@@ -15,8 +15,7 @@ const bydayToDayString = {
 }
 
 const dateFormat = "MM/DD/YY"
-const dtDate = 'MM/DD/YY'
-const dtTime = 'h:mmA'
+const timeFormat = 'h:mmA'
 
 
 const parseRecurrence = (recurrence: string | undefined) => {
@@ -48,9 +47,9 @@ const parseRecurrence = (recurrence: string | undefined) => {
     <div class="row" v-if="calEvent?.start.dateTime">
         <span v-if="!calEvent.recurrence">
             {{
-                dayjs(calEvent?.start.dateTime).format(dtTime)
+                dayjs(calEvent?.start.dateTime).format(timeFormat)
                 + " - "
-                + dayjs(calEvent?.end.dateTime).format(dtTime)
+                + dayjs(calEvent?.end.dateTime).format(timeFormat)
             }}</span>
     </div>
 </template>

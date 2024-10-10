@@ -17,6 +17,7 @@ import TopMenu from './components/TopMenu/index.vue';
 
 <style scoped>
 .app-container {
+  width: 100%;
   max-width: 400px;
   height: 100vh;
   padding: 0 10px;

@@ -13,13 +13,13 @@ let errorMessage = ref("")
 let showEvents = ref(!(localStorage.getItem('showEvents') === 'false'));
 const onClickEventsFilter = () => handleFilterClick(true, false, false, false)
 
-let showPractices = ref(!(localStorage.getItem('showPractices') === 'false'));
+let showPractices = ref((localStorage.getItem('showPractices') === 'true'));
 const onClickPracticeFilter = () => handleFilterClick(false, true, false, false)
 
-let showMeetings = ref(!(localStorage.getItem('showMeetings') === 'false'));
+let showMeetings = ref((localStorage.getItem('showMeetings') === 'true'));
 const onClickMeetingsFilter = () => handleFilterClick(false, false, true, false)
 
-let showAll = ref(!(localStorage.getItem('showAll') === 'false'));
+let showAll = ref((localStorage.getItem('showAll') === 'true'));
 const onClickAllFilter = () => handleFilterClick(false, false, false, true)
 
 const handleFilterClick = (
@@ -39,6 +39,9 @@ const handleFilterClick = (
 }
 
 watch([showEvents, showPractices, showMeetings, showAll, allEvents], ([nEvents, nPractices, nMeetings, nAll, _]) => {
+  if (!nEvents && !nPractices && !nMeetings && !nAll) {
+    showEvents.value = true
+  }
   if (nAll) {
     shownEvents.value = allEvents.value;
   }

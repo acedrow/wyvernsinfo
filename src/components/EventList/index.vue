@@ -7,6 +7,19 @@ import { CalendarEvent } from './types';
 let calendarEvents = ref({})
 let errorMessage = ref("")
 
+const sortEvents = (a: CalendarEvent, b: CalendarEvent): number => {
+  if (a.recurrence) {
+    if (b.recurrence) {
+      return 0
+    }
+    return -1
+  }
+  return (
+    dayjs(a?.start?.date ?? a.start.dateTime)
+      .isBefore(dayjs(b?.start?.date ?? b.start.dateTime)) ? -1 : 1
+  )
+}
+
 onMounted(async () => {
   const baseUrl = "https://www.googleapis.com/calendar/v3/calendars"
   const result = await fetch(
@@ -16,15 +29,20 @@ onMounted(async () => {
   ).catch((error) => {
     errorMessage.value = error.message
   })
-  calendarEvents.value = result.items.filter((calItem : CalendarEvent) =>
+
+  const futureEvents = result.items.filter((calItem: CalendarEvent) =>
     calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime).isAfter(dayjs()))
-  console.log(result.items)
+
+  futureEvents.sort(sortEvents)
+
+  calendarEvents.value = futureEvents
+
 })
 </script>
 
 <template>
-    <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
-    <EventCard v-for="event in calendarEvents" :googleEvent="event"></EventCard>
+  <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
+  <EventCard v-for="event in calendarEvents" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>

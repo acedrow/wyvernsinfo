@@ -1,16 +1,18 @@
 <script setup lang="ts">
+
 import { ref, watch } from 'vue'
 import DateTime from './DateTime.vue';
 import Description from './Description.vue';
+import EventTypeLabel from './EventTypeLabel.vue'
 import { CalendarEvent } from '../types';
 import Location from './Location.vue';
+import { getEventType } from '../utils';
 
-defineProps<{ googleEvent: CalendarEvent }>()
+const props = defineProps<{ googleEvent: CalendarEvent }>()
 const defaultExpanded = false
 let expanded = ref<boolean>(defaultExpanded)
 let computedTransform = ref<string>(defaultExpanded ? "rotate(90deg)" : "rotate(0)")
-
-
+const eventType = getEventType(props.googleEvent)
 watch(expanded, (value) => {
     if (value) {
         computedTransform.value = "rotate(90deg)"
@@ -19,22 +21,23 @@ watch(expanded, (value) => {
     }
 });
 
-
-
 </script>
 
 <template>
     <div class="event-card">
         <div class="col">
             <div class="row header-row">
+                <EventTypeLabel :event-type="eventType" />
                 <h3>{{ googleEvent.summary }}</h3>
-                <button v-if="googleEvent?.description?.length > 0" class="e-button expand"
-                    @click="expanded = !expanded">{{
-                        ">"
-                    }}</button>
+                <div class="row expand-button-row">
+                    <button v-if="googleEvent?.description?.length > 0" class="e-button expand"
+                        @click="expanded = !expanded">{{
+                            ">"
+                        }}</button>
+                </div>
             </div>
-            <DateTime :calEvent="googleEvent" />
-            <Location :calEvent="googleEvent" />
+            <DateTime :cal-event="googleEvent" />
+            <Location :cal-event="googleEvent" />
             <Description :description="googleEvent?.description" :expanded="expanded" />
         </div>
     </div>
@@ -48,9 +51,17 @@ watch(expanded, (value) => {
 }
 
 .row.header-row {
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
 }
+
+.row.expand-button-row {
+    align-items: center;
+    flex-grow: 100;
+    justify-content: end;
+    align-items: center;
+}
+
 
 .e-button.expand {
     transform: v-bind('computedTransform');

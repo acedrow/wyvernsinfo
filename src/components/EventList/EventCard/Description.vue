@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { ref, watch } from "vue";
+import { matchEventType } from "../utils";
 
 const props = defineProps<{ description: string; expanded: boolean }>();
 
-const audienceDesc = props.description.split("Fighters:")[0] ?? undefined;
+const audienceDesc = (props.description.split("Fighters:")[0] ?? '').replace(matchEventType, '');
+
 const fighterSection = props.description.split("Fighters:")[1] ?? undefined;
 const fightersExpanded = ref(false);
 

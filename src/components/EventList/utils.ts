@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import { CalendarEvent } from "./types";
+import { CalendarEvent, EventType } from "./types";
 
 export function ordinal_suffix_of(i: number) {
   let j = i % 10,
@@ -54,34 +54,71 @@ export const parseRecurrenceString = (recurrence: string): string => {
 export const sortEvents = (a: CalendarEvent, b: CalendarEvent): number => {
   if (a.recurrence) {
     if (b.recurrence) {
-      return 0
+      return 0;
     }
-    return -1
+    return -1;
   }
-  return (
-    dayjs(a?.start?.date ?? a.start.dateTime)
-      .isBefore(dayjs(b?.start?.date ?? b.start.dateTime)) ? -1 : 1
+  return dayjs(a?.start?.date ?? a.start.dateTime).isBefore(
+    dayjs(b?.start?.date ?? b.start.dateTime)
   )
-}
+    ? -1
+    : 1;
+};
 
-export const filterEvents = (showEvents: boolean, showPractices: boolean, showMeetings: boolean, allEvents: CalendarEvent[]) => {
+export const filterEvents = (
+  showEvents: boolean,
+  showPractices: boolean,
+  showMeetings: boolean,
+  allEvents: CalendarEvent[]
+) => {
   let filteredEvents = allEvents;
 
   if (showEvents && showPractices && showMeetings) {
-    return filteredEvents
+    return filteredEvents;
   }
 
   if (!showEvents) {
-    filteredEvents = filteredEvents.filter((event) => event.summary.toLowerCase().includes('meeting') || event.summary.toLowerCase().includes('practice'))
+    filteredEvents = filteredEvents.filter(
+      (event) =>
+        event.summary.toLowerCase().includes("meeting") ||
+        event.summary.toLowerCase().includes("practice")
+    );
   }
 
   if (!showPractices) {
-    filteredEvents = filteredEvents.filter((event) => !event.summary.toLowerCase().includes('practice'))
+    filteredEvents = filteredEvents.filter(
+      (event) => !event.summary.toLowerCase().includes("practice")
+    );
   }
 
   if (!showMeetings) {
-    filteredEvents = filteredEvents.filter((event) => !event.summary.toLowerCase().includes('meeting'))
+    filteredEvents = filteredEvents.filter(
+      (event) => !event.summary.toLowerCase().includes("meeting")
+    );
   }
 
-  return filteredEvents
-}
+  return filteredEvents;
+};
+
+export const  matchEventType = /\[\[([\w\s]+)]]/gim;
+
+
+export const getEventType = (event: CalendarEvent) => {
+  const tag = [...event?.description?.matchAll(matchEventType)]?.[0]?.[1];
+  
+  const matchAgainst = tag ?? event?.summary.toLowerCase()
+
+  if (matchAgainst?.includes("home")) {
+    return EventType.home;
+  }
+  if (matchAgainst?.includes("away")) {
+    return EventType.away;
+  }
+  if (matchAgainst?.includes("practice")) {
+    return EventType.practice;
+  }
+  if (matchAgainst?.includes("meeting")) {
+    return EventType.meeting;
+  }
+  return EventType.none;
+};

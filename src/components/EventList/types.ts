@@ -13,3 +13,11 @@ export type CalendarEvent = {
     location?: string;
     hangoutLink?: string;
 };
+
+export enum EventType {
+    home = 'home',
+    away = 'away',
+    practice = 'practice',
+    meeting = 'meeting',
+    none = 'none'
+  }

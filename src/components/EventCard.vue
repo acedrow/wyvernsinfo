@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 import dayjs from 'dayjs/esm/index.js'
+import DateLine from './DateLine.vue';
 
-type Event = {
+export type Event = {
     summary: string;
     description: string;
     start: {
         date?: string;
         dateTime?: string;
     }
+    recurrence?: [string] | undefined;
 };
 
 const props = defineProps<{ calEvent: Event }>()
-console.log('start', dayjs(props.calEvent?.start?.date ?? props.calEvent?.start?.dateTime))
 let expanded = ref<boolean>(false)
 let computedTransform = ref<string>("rotate(0)")
 watch(expanded, (value) => {
@@ -22,6 +23,7 @@ watch(expanded, (value) => {
         computedTransform.value = "rotate(0)"
     }
 });
+
 
 
 </script>
@@ -34,11 +36,7 @@ watch(expanded, (value) => {
                 <button v-if="calEvent?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">"
                     }}</button>
             </div>
-            <div class="row time-row">
-                {{ calEvent?.start?.date
-                    ? dayjs(calEvent?.start.date).format('MM/DD/YYYY')
-                    : dayjs(calEvent?.start.dateTime).format('MM/DD/YYYY - h:m') }}
-            </div>
+            <DateLine :calEvent="calEvent"/>
             <p v-if="expanded">{{ calEvent.description }}</p>
         </div>
     </div>

@@ -3,25 +3,13 @@ import { ref, watch } from 'vue'
 import DateTime from './DateTime.vue';
 import Description from '../Description.vue';
 import Location from './Location.vue';
+import { CalendarEvent } from './types';
 
-export type Event = {
-    summary: string;
-    description: string;
-    start: {
-        date?: string;
-        dateTime?: string;
-    }
-    end: {
-        date?: string;
-        dateTime?: string;
-    }
-    recurrence?: [string] | undefined;
-    location?: string;
-};
+defineProps<{ calEvent: CalendarEvent }>()
+const defaultExpanded = false
+let expanded = ref<boolean>(defaultExpanded)
+let computedTransform = ref<string>(defaultExpanded ? "rotate(90deg)" : "rotate(0)")
 
-defineProps<{ calEvent: Event }>()
-let expanded = ref<boolean>(true)
-let computedTransform = ref<string>("rotate(90deg)")
 watch(expanded, (value) => {
     if (value) {
         computedTransform.value = "rotate(90deg)"

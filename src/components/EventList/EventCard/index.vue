@@ -5,10 +5,11 @@ import Description from './Description.vue';
 import { CalendarEvent } from '../types';
 import Location from './Location.vue';
 
-defineProps<{ calEvent: CalendarEvent }>()
+defineProps<{ googleEvent: CalendarEvent }>()
 const defaultExpanded = false
 let expanded = ref<boolean>(defaultExpanded)
 let computedTransform = ref<string>(defaultExpanded ? "rotate(90deg)" : "rotate(0)")
+
 
 watch(expanded, (value) => {
     if (value) {
@@ -26,15 +27,15 @@ watch(expanded, (value) => {
     <div class="event-card">
         <div class="col">
             <div class="row header-row">
-                <h3>{{ calEvent.summary }}</h3>
-                <button v-if="calEvent?.description?.length > 0" class="e-button expand"
+                <h3>{{ googleEvent.summary }}</h3>
+                <button v-if="googleEvent?.description?.length > 0" class="e-button expand"
                     @click="expanded = !expanded">{{
                         ">"
                     }}</button>
             </div>
-            <DateTime :calEvent="calEvent" />
-            <Location :location="calEvent?.location" />
-            <Description :description="calEvent?.description" :expanded="expanded" />
+            <DateTime :calEvent="googleEvent" />
+            <Location :calEvent="googleEvent" />
+            <Description :description="googleEvent?.description" :expanded="expanded" />
         </div>
     </div>
 </template>

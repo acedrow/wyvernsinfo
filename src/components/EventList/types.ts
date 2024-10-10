@@ -1,9 +1,3 @@
-export enum EventType {
-    "event",
-    "practice",
-    "meeting",
-}
-
 export type CalendarEvent = {
     summary: string;
     description: string;
@@ -17,5 +11,5 @@ export type CalendarEvent = {
     }
     recurrence?: [string] | undefined;
     location?: string;
-    type?: EventType
+    hangoutLink?: string;
 };

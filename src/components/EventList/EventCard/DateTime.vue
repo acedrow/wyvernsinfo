@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import dayjs from 'dayjs/esm/index.js'
 import { CalendarEvent } from '../types';
+import advancedFormat from 'dayjs/plugin/advancedFormat'
 
 const props = defineProps<{ calEvent: CalendarEvent }>()
+dayjs.extend(advancedFormat);
 
 const bydayToDayString = {
     mo: "Monday",
@@ -14,7 +16,7 @@ const bydayToDayString = {
     su: "Sunday"
 }
 
-const dateFormat = "MM/DD/YY"
+const dateFormat = "MMMM Do"
 const timeFormat = 'h:mmA'
 
 const startDate =

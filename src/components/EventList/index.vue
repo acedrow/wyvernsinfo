@@ -29,7 +29,7 @@ onMounted(async () => {
     <a v-bind:href="'mailto:' + 'linden.holt@mn-armored-combat.org'">Contact Us</a>
 
     <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
-    <EventCard v-for="event in calendarEvents" :calEvent="event"></EventCard>
+    <EventCard v-for="event in calendarEvents" :googleEvent="event"></EventCard>
   </div>
 </template>
 

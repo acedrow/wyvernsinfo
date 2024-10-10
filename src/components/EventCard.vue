@@ -29,10 +29,15 @@ watch(expanded, (value) => {
 <template>
     <div class="event-card">
         <div class="col">
-            <div class="row header-row" >
+            <div class="row header-row">
                 <h2>{{ calEvent.summary }}</h2>
                 <button v-if="calEvent?.description?.length > 0" id="expand-button" @click="expanded = !expanded">{{ ">"
                     }}</button>
+            </div>
+            <div class="row time-row">
+                {{ calEvent?.start?.date
+                    ? dayjs(calEvent?.start.date).format('MM/DD/YYYY')
+                    : dayjs(calEvent?.start.dateTime).format('MM/DD/YYYY - h:m') }}
             </div>
             <p v-if="expanded">{{ calEvent.description }}</p>
         </div>

@@ -68,11 +68,12 @@ const parsedRecurrence = props.calEvent?.recurrence?.[0] ?
 }
 
 .data-span {
-    text-wrap: nowrap;
+    text-wrap: wrap;
     margin-left: 5px;
 }
 
 .data-span.date {
     font-weight: 500;
 }
+
 </style>

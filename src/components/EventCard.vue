@@ -55,13 +55,10 @@ watch(expanded, (value) => {
 }
 
 #expand-button {
+    width: fit-content;
     font-size: 28px;
     font-weight: 800;
     transform: v-bind('computedTransform');
-    transition: transform 0.5s ease;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-
+    transition: transform 0.5s ease
 }
 </style>

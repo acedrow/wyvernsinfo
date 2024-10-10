@@ -33,6 +33,7 @@ onMounted(async () => {
 
   allEvents.value = futureEvents
   shownEvents.value = futureEvents
+  console.log('shownEvents.value', shownEvents.value)
 
 })
 </script>

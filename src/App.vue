@@ -1,17 +1,14 @@
 <script setup lang="ts">
 import EventList from './components/EventList/index.vue';
-import TopLinks from './components/TopLinks/index.vue';
-// import Sidebar from './components/Sidebar/index.vue';
+import TopMenu from './components/TopMenu/index.vue';
 
 </script>
 
 <template>
   <div class="app-container">
-    <!-- <Sidebar/> -->
     <div class="main-column">
-      <TopLinks />
-      <h1>wyverns.info</h1>
-      <p>Official source of event calendar, practice schedule, and contact info for the Twin Cities Wyverns -
+      <TopMenu />
+      <p class="description">Official source of event calendar, practice schedule, and contact info for the Twin Cities Wyverns -
         Minnesota's first and only armored combat team.</p>
       <EventList />
     </div>
@@ -22,8 +19,12 @@ import TopLinks from './components/TopLinks/index.vue';
 .app-container {
   max-width: 400px;
   height: 100vh;
-  padding: 10px;
+  padding: 0 10px;
   display: flex;
+}
+
+.description {
+  margin-top: 8px;
 }
 
 .main-column {

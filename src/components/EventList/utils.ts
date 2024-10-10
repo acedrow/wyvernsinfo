@@ -74,6 +74,7 @@ export const filterEvents = (
   let filteredEvents = allEvents;
 
   if (showEvents && showPractices && showMeetings) {
+    console.log('return all')
     return filteredEvents;
   }
 

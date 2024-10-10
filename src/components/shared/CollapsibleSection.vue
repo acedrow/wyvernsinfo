@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
 
-let props = defineProps<{ expanded: boolean }>()
+let props = defineProps<{ expanded: boolean, showBorder?: boolean }>()
 
 const COLLAPSED_HEIGHT = '0'
 const EXPANDED_HEIGHT = '100000'
@@ -18,13 +18,19 @@ watch(() => props.expanded, (newExpanded) => {
 
 <template>
     <Transition>
-        <div v-if="expanded" class="collapse-container">
+        <div v-if="expanded" :class="showBorder ? 'decorated-container' : ''">
             <slot class="child-container"></slot>
         </div>
     </Transition>
 </template>
 
 <style scoped>
+
+.decorated-container {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid white
+}
 
 .v-enter-active,
 .v-leave-active {

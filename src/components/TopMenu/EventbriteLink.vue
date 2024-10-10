@@ -4,7 +4,7 @@ defineProps<{ strokeColor: string, size: string }>()
 </script>
 
 <template>
-    <div class="link-container">
+    <div class="icon-container">
         <a href="https://www.eventbrite.com/o/mn-armored-combat-twin-cities-wyverns-53524183833">
             <svg fill="#000000" :width="30" :height="30" viewBox="-3 -3 30 30"  role="img"
                 xmlns="http://www.w3.org/2000/svg">

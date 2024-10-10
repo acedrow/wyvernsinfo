@@ -16,18 +16,20 @@ watch(() => props.shown, (newShown) => {
 
 <style scoped>
 .filter-button {
-    margin: 2px 2px 2px 0;
-    border-radius: 5px;
+    font-size: 20px;
+    margin: 2px 0;
     height: 20px;
     text-wrap: nowrap;
 }
 
 .active {
     color: white;
-    background-color: black;
+    background-color: transparent;
 }
 
 .inactive {
     color: gray;
+    background-color: transparent;
 }
+
 </style>

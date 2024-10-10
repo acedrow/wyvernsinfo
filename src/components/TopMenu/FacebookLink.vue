@@ -4,7 +4,7 @@ defineProps<{ strokeColor: string, size: string }>()
 </script>
 
 <template>
-    <div class="link-container">
+    <div class="icon-container">
         <a href="https://www.facebook.com/TCWyverns/">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" :width="size" :height="size" viewBox="0 0 50 50">
                 <path :fill="strokeColor"

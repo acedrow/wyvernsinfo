@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import { ref } from 'vue'
-import DateTime from './DateTime.vue';
+import DateTime from './DateTimeLocation.vue';
 import Description from './Description.vue';
 import EventTypeLabel from './EventTypeLabel.vue'
 import { CalendarEvent } from '../types';
@@ -10,8 +10,7 @@ import { getEventType } from '../utils';
 import ExpandIcon from '../../shared/ExpandIcon.vue';
 
 const props = defineProps<{ googleEvent: CalendarEvent }>()
-const defaultExpanded = false
-let expanded = ref<boolean>(defaultExpanded)
+let expanded = ref<boolean>(false)
 const eventType = getEventType(props.googleEvent)
 
 </script>
@@ -20,32 +19,32 @@ const eventType = getEventType(props.googleEvent)
     <div class="event-card">
         <div class="col">
             <div class="row header-row">
-                <EventTypeLabel :event-type="eventType" />
                 <h3>{{ googleEvent.summary }}</h3>
-                <div class="row expand-button-row">
-                    <button v-if="googleEvent?.description?.length > 0" class="e-button"
-                        @click="expanded = !expanded" :title="!expanded ? 'Show Event Info' : 'Hide Event Info'">
-                        <ExpandIcon stroke-color="white" size="20" :flipped="expanded"/>
-                    </button>
-                </div>
+                <EventTypeLabel :event-type="eventType" />
             </div>
             <DateTime :cal-event="googleEvent" />
-            <Location :cal-event="googleEvent" />
             <Description :description="googleEvent?.description" :expanded="expanded" />
+            <button v-if="googleEvent?.description?.length > 0" class="show-info" @click="expanded = !expanded"
+                :title="!expanded ? 'Show Event Info' : 'Hide Event Info'">
+                {{ !expanded ? 'Show Info' : 'Hide Info' }}
+            </button>
         </div>
     </div>
 </template>
 
 <style scoped>
 .event-card {
-    background-color: rgb(52, 89, 57);
-    margin: 10px 0;
-    padding: 0 7px 7px 7px
+    background-color: var(--dark-green);
+    margin: 15px 0;
+    padding-bottom: 6px;
+    border-radius: 6px;
 }
 
 .row.header-row {
     align-items: center;
     justify-content: space-between;
+    padding: 5px;
+    background-color: var(--wyverns-green);
 }
 
 .row.expand-button-row {
@@ -55,4 +54,11 @@ const eventType = getEventType(props.googleEvent)
     align-items: center;
 }
 
+.show-info {
+    align-self: center;
+    width: 100px;
+    margin-top: 12px;
+    background-color: var(--wyverns-green);
+    font-family: monospace;
+}
 </style>

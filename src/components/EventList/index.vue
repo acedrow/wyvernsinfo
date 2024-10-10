@@ -11,22 +11,40 @@ let shownEvents: Ref<CalendarEvent[]> = ref([])
 let errorMessage = ref("")
 
 let showEvents = ref(!(localStorage.getItem('showEvents') === 'false'));
-const onClickEventsFilter = () => {
-  showEvents.value = !showEvents.value
-  localStorage.setItem('showEvents', `${showEvents.value}`)
-}
+const onClickEventsFilter = () => handleFilterClick(true, false, false, false)
+
 let showPractices = ref(!(localStorage.getItem('showPractices') === 'false'));
-const onClickPracticeFilter = () => {
-  showPractices.value = !showPractices.value
-  localStorage.setItem('showPractices', `${showPractices.value}`)
-}
+const onClickPracticeFilter = () => handleFilterClick(false, true, false, false)
+
 let showMeetings = ref(!(localStorage.getItem('showMeetings') === 'false'));
-const onClickMeetingsFilter = () => {
-  showMeetings.value = !showMeetings.value
-  localStorage.setItem('showMeetings', `${showMeetings.value}`)
+const onClickMeetingsFilter = () => handleFilterClick(false, false, true, false)
+
+let showAll = ref(!(localStorage.getItem('showAll') === 'false'));
+const onClickAllFilter = () => handleFilterClick(false, false, false, true)
+
+const handleFilterClick = (
+  events: boolean,
+  practices: boolean,
+  meetings: boolean,
+  all: boolean
+) => {
+  showEvents.value = events
+  showPractices.value = practices
+  showMeetings.value = meetings
+  showAll.value = all
+  localStorage.setItem('showEvents', `${events}`)
+  localStorage.setItem('showPractices', `${practices}`)
+  localStorage.setItem('showMeetings', `${meetings}`)
+  localStorage.setItem('showAll', `${all}`)
 }
-watch([showEvents, showPractices, showMeetings], () => {
-  shownEvents.value = filterEvents(showEvents.value, showPractices.value, showMeetings.value, allEvents.value)
+
+watch([showEvents, showPractices, showMeetings, showAll, allEvents], ([nEvents, nPractices, nMeetings, nAll, _]) => {
+  if (nAll) {
+    shownEvents.value = allEvents.value;
+  }
+  else {
+    shownEvents.value = filterEvents(nEvents, nPractices, nMeetings, allEvents.value)
+  }
 })
 
 onMounted(async () => {
@@ -45,18 +63,18 @@ onMounted(async () => {
   futureEvents.sort(sortEvents)
 
   allEvents.value = futureEvents
-  shownEvents.value = filterEvents(showEvents.value, showPractices.value, showMeetings.value, futureEvents)
 })
 </script>
 
 <template>
   <h2 class="cal-header">Calendar</h2>
   <div class="row filters-container">
-    <h3 class="filters-header">Filters:</h3>
     <div class="row buttons-container">
-      <FilterButton :shown="showEvents" label="Show Events" :callback="onClickEventsFilter" />
-      <FilterButton :shown="showPractices" label="Show Practices" :callback="onClickPracticeFilter" />
-      <FilterButton :shown="showMeetings" label="Show Meetings" :callback="onClickMeetingsFilter" />
+      <FilterButton :shown="showEvents" label="Events" :callback="onClickEventsFilter" />
+      <FilterButton :shown="showPractices" label="Practices" :callback="onClickPracticeFilter" />
+      <FilterButton :shown="showMeetings" label="Meetings" :callback="onClickMeetingsFilter" />
+      <FilterButton :shown="showAll" label="All" :callback="onClickAllFilter" />
+
     </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>

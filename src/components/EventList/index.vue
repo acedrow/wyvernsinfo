@@ -4,13 +4,18 @@ import EventCard from './EventCard/index.vue'
 import dayjs from 'dayjs/esm/index.js'
 import { CalendarEvent } from './types';
 import { filterEvents, sortEvents } from './utils';
+import FilterButton from './FilterButton.vue';
 
 let allEvents: Ref<CalendarEvent[]> = ref([])
 let shownEvents: Ref<CalendarEvent[]> = ref([])
 let errorMessage = ref("")
+
 let showEvents = ref(true);
+const onClickEventsFilter = () => showEvents.value = !showEvents.value
 let showPractices = ref(true);
+const onClickPracticeFilter = () => showPractices.value = !showPractices.value
 let showMeetings = ref(true);
+const onClickMeetingsFilter = () => showMeetings.value = !showMeetings.value
 
 watch([showEvents, showPractices, showMeetings], ([newShowEvents, newShowPractices, newShowMeetings]) => {
   shownEvents.value = filterEvents(newShowEvents, newShowPractices, newShowMeetings, allEvents.value)
@@ -39,8 +44,14 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
-    <EventCard v-for="event in shownEvents" :googleEvent="event"></EventCard>
+  <div class="filters-container">
+    Filters:
+    <FilterButton :shown="showEvents" label="Show Events" :callback="onClickEventsFilter"/>
+    <FilterButton :shown="showPractices" label="Show Practices" :callback="onClickPracticeFilter"/>
+    <FilterButton :shown="showMeetings" label="Show Meetings" :callback="onClickMeetingsFilter"/>
+  </div>
+  <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
+  <EventCard v-for="event in shownEvents" :key="event.summary" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>
@@ -50,6 +61,11 @@ onMounted(async () => {
   padding-top: 10px;
   min-height: 100%
 }
+
+.filters-container {
+  margin: 10px 0
+}
+
 .error {
   background-color: rgb(95, 5, 5);
   height: 100px;

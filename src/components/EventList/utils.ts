@@ -33,8 +33,6 @@ export const parseRecurrenceString = (recurrence: string): string => {
     dayOfWeek: matches[0][3].toLowerCase(),
   };
 
-  console.log("values", values);
-
   return `
   ${values.frequency === "weekly" ? "Each" : ""}
   ${
@@ -46,10 +44,6 @@ export const parseRecurrenceString = (recurrence: string): string => {
     //@ts-ignore
     bydayToDayString[values.dayOfWeek]
   }
-    ${
-    values.frequency === "monthly"
-      ? `of the month`
-      : ""
-  }
+    ${values.frequency === "monthly" ? `of the month` : ""}
   `;
 };

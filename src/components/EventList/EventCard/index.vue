@@ -43,7 +43,6 @@ watch(expanded, (value) => {
 <style scoped>
 .event-card {
     background-color: rgb(52, 89, 57);
-    width: 320px;
     margin: 10px 0;
     padding: 0 7px 7px 7px
 }

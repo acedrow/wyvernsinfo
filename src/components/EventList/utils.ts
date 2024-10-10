@@ -1,3 +1,6 @@
+import dayjs from "dayjs";
+import { CalendarEvent } from "./types";
+
 export function ordinal_suffix_of(i: number) {
   let j = i % 10,
     k = i % 100;
@@ -47,3 +50,38 @@ export const parseRecurrenceString = (recurrence: string): string => {
     ${values.frequency === "monthly" ? `of the month` : ""}
   `;
 };
+
+export const sortEvents = (a: CalendarEvent, b: CalendarEvent): number => {
+  if (a.recurrence) {
+    if (b.recurrence) {
+      return 0
+    }
+    return -1
+  }
+  return (
+    dayjs(a?.start?.date ?? a.start.dateTime)
+      .isBefore(dayjs(b?.start?.date ?? b.start.dateTime)) ? -1 : 1
+  )
+}
+
+export const filterEvents = (showEvents: boolean, showPractices: boolean, showMeetings: boolean, allEvents: CalendarEvent[]) => {
+  let filteredEvents = allEvents;
+
+  if (showEvents && showPractices && showMeetings) {
+    return filteredEvents
+  }
+
+  if (!showEvents) {
+    filteredEvents = filteredEvents.filter((event) => event.summary.toLowerCase().includes('meeting') || event.summary.toLowerCase().includes('practice'))
+  }
+
+  if (!showPractices) {
+    filteredEvents = filteredEvents.filter((event) => !event.summary.toLowerCase().includes('practice'))
+  }
+
+  if (!showMeetings) {
+    filteredEvents = filteredEvents.filter((event) => !event.summary.toLowerCase().includes('meeting'))
+  }
+
+  return filteredEvents
+}

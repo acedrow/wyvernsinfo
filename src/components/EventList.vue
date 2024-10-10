@@ -34,7 +34,4 @@ onMounted(async () => {
   height: 100px;
 }
 
-#outer-container {
-
-}
 </style>

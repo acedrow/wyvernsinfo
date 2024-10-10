@@ -1,25 +1,18 @@
 <script setup lang="ts">
 
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 import DateTime from './DateTime.vue';
 import Description from './Description.vue';
 import EventTypeLabel from './EventTypeLabel.vue'
 import { CalendarEvent } from '../types';
 import Location from './Location.vue';
 import { getEventType } from '../utils';
+import ExpandIcon from '../../shared/ExpandIcon.vue';
 
 const props = defineProps<{ googleEvent: CalendarEvent }>()
 const defaultExpanded = false
 let expanded = ref<boolean>(defaultExpanded)
-let computedTransform = ref<string>(defaultExpanded ? "rotate(90deg)" : "rotate(0)")
 const eventType = getEventType(props.googleEvent)
-watch(expanded, (value) => {
-    if (value) {
-        computedTransform.value = "rotate(90deg)"
-    } else {
-        computedTransform.value = "rotate(0)"
-    }
-});
 
 </script>
 
@@ -30,10 +23,10 @@ watch(expanded, (value) => {
                 <EventTypeLabel :event-type="eventType" />
                 <h3>{{ googleEvent.summary }}</h3>
                 <div class="row expand-button-row">
-                    <button v-if="googleEvent?.description?.length > 0" class="e-button expand"
-                        @click="expanded = !expanded" :title="!expanded ? 'Show Event Info' : 'Hide Event Info'">{{
-                            ">"
-                        }}</button>
+                    <button v-if="googleEvent?.description?.length > 0" class="e-button"
+                        @click="expanded = !expanded" :title="!expanded ? 'Show Event Info' : 'Hide Event Info'">
+                        <ExpandIcon stroke-color="white" size="20" :flipped="expanded"/>
+                    </button>
                 </div>
             </div>
             <DateTime :cal-event="googleEvent" />
@@ -62,9 +55,4 @@ watch(expanded, (value) => {
     align-items: center;
 }
 
-
-.e-button.expand {
-    transform: v-bind('computedTransform');
-    transition: transform 0.5s ease;
-}
 </style>

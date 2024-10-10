@@ -51,9 +51,9 @@ onMounted(async () => {
 
 <template>
   <h2 class="cal-header">Calendar</h2>
-  <div class="filters-container">
+  <div class="row filters-container">
     <h3>Filters:</h3>
-    <div class="buttons-container">
+    <div class="row buttons-container">
       <FilterButton :shown="showEvents" label="Show Events" :callback="onClickEventsFilter" />
       <FilterButton :shown="showPractices" label="Show Practices" :callback="onClickPracticeFilter" />
       <FilterButton :shown="showMeetings" label="Show Meetings" :callback="onClickMeetingsFilter" />
@@ -74,14 +74,18 @@ onMounted(async () => {
 .cal-header {
   border-top: solid #ffffffde;
   margin-top: 12px;
-  padding: 5px 0;
+  padding-top: 5px;
 }
 
-.filters-container {
+.row.filters-container {
   margin-bottom: 10px;
-  display: flex;
-  min-height: 25px;
+  min-height: 30px;
   align-items: start;
+}
+
+.row.buttons-container {
+  align-items: center;
+  min-height: 30px;
 }
 
 .error {

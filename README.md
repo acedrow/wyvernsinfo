@@ -19,7 +19,11 @@ There are a few contextual strings that can be added to event descriptions to en
 - e.g. `Fighters:`
 - all text after the fighters info tag will appear in a secondary dropdown within the description labeled "Fighter Info"
 
-Development:
+## Development:
 
 run with `npm run dev`
+
+### dev TODOs:
+- shake expansion buttons
+- filter button animation
 

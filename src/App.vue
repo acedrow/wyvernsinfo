@@ -18,5 +18,6 @@ import TopLinks from './components/TopLinks/index.vue';
   min-width: 320px;
   max-width: 400px;
   height: 100vh;
+  padding: 10px;
 }
 </style>

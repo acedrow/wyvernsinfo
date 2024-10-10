@@ -10,15 +10,23 @@ let allEvents: Ref<CalendarEvent[]> = ref([])
 let shownEvents: Ref<CalendarEvent[]> = ref([])
 let errorMessage = ref("")
 
-let showEvents = ref(true);
-const onClickEventsFilter = () => showEvents.value = !showEvents.value
-let showPractices = ref(true);
-const onClickPracticeFilter = () => showPractices.value = !showPractices.value
-let showMeetings = ref(true);
-const onClickMeetingsFilter = () => showMeetings.value = !showMeetings.value
-
-watch([showEvents, showPractices, showMeetings], ([newShowEvents, newShowPractices, newShowMeetings]) => {
-  shownEvents.value = filterEvents(newShowEvents, newShowPractices, newShowMeetings, allEvents.value)
+let showEvents = ref(!(localStorage.getItem('showEvents') === 'false'));
+const onClickEventsFilter = () => {
+  showEvents.value = !showEvents.value
+  localStorage.setItem('showEvents', `${showEvents.value}`)
+}
+let showPractices = ref(!(localStorage.getItem('showPractices') === 'false'));
+const onClickPracticeFilter = () => {
+  showPractices.value = !showPractices.value
+  localStorage.setItem('showPractices', `${showPractices.value}`)
+}
+let showMeetings = ref(!(localStorage.getItem('showMeetings') === 'false'));
+const onClickMeetingsFilter = () => {
+  showMeetings.value = !showMeetings.value
+  localStorage.setItem('showMeetings', `${showMeetings.value}`)
+}
+watch([showEvents, showPractices, showMeetings], () => {
+  shownEvents.value = filterEvents(showEvents.value, showPractices.value, showMeetings.value, allEvents.value)
 })
 
 onMounted(async () => {
@@ -37,9 +45,7 @@ onMounted(async () => {
   futureEvents.sort(sortEvents)
 
   allEvents.value = futureEvents
-  shownEvents.value = futureEvents
-  console.log('shownEvents.value', shownEvents.value)
-
+  shownEvents.value = filterEvents(showEvents.value, showPractices.value, showMeetings.value, futureEvents)
 })
 </script>
 

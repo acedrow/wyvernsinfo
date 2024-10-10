@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
 
-const props = defineProps<{ shown: boolean, label: string, callback: () => boolean }>()
+const props = defineProps<{ shown: boolean, label: string, callback: () => void }>()
 const getButtonClass = (shown: boolean) => shown ? 'active' : 'inactive';
 const buttonClass = ref(getButtonClass(props.shown))
 

@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue'
 import DateTime from './DateTime.vue';
 import Description from '../Description.vue';
+import Location from './Location.vue';
 
 export type Event = {
     summary: string;
@@ -44,7 +45,7 @@ watch(expanded, (value) => {
                     }}</button>
             </div>
             <DateTime :calEvent="calEvent" />
-            {{ calEvent.location }}
+            <Location :location="calEvent?.location" />
             <Description :description="calEvent?.description" :expanded="expanded" />
         </div>
     </div>

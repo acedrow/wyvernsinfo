@@ -18,8 +18,8 @@ export type Event = {
 };
 
 defineProps<{ calEvent: Event }>()
-let expanded = ref<boolean>(false)
-let computedTransform = ref<string>("rotate(0)")
+let expanded = ref<boolean>(true)
+let computedTransform = ref<string>("rotate(90deg)")
 watch(expanded, (value) => {
     if (value) {
         computedTransform.value = "rotate(90deg)"

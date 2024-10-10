@@ -7,7 +7,7 @@ import TopLinks from './components/TopLinks/index.vue';
   <div class="outer-container">
     <TopLinks />
     <h1>wyverns.info</h1>
-    <p>A calendar event aggregator for Minnesota Armored Combat and the Twin Cities Wyverns</p>
+    <p>Roost of the Twin Cities Wyverns. Official source for event calendar, practice schedule, contact info and more.</p>
     <EventList />
   </div>
 </template>

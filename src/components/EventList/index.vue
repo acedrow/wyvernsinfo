@@ -38,17 +38,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="outer-container">
-    Filters: <br />
-    Events: <input type="checkbox" v-model="showEvents">
-    Practices: <input type="checkbox" v-model="showPractices">
-    Meetings: <input type="checkbox" v-model="showMeetings">
-    <div v-if="!showEvents && !showPractices && !showMeetings">
-      No events to display - all filters are disabled.
-    </div>
     <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
     <EventCard v-for="event in shownEvents" :googleEvent="event"></EventCard>
-  </div>
 </template>
 
 <style scoped>

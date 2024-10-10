@@ -2,8 +2,8 @@
 import { ref, watch } from 'vue'
 import DateTime from './DateTime.vue';
 import Description from './Description.vue';
+import { CalendarEvent } from '../types';
 import Location from './Location.vue';
-import { CalendarEvent } from './types';
 
 defineProps<{ calEvent: CalendarEvent }>()
 const defaultExpanded = false

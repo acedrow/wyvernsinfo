@@ -5,9 +5,7 @@ import DateTime from './DateTimeLocation.vue';
 import Description from './Description.vue';
 import EventTypeLabel from './EventTypeLabel.vue'
 import { CalendarEvent } from '../types';
-import Location from './Location.vue';
 import { getEventType } from '../utils';
-import ExpandIcon from '../../shared/ExpandIcon.vue';
 
 const props = defineProps<{ googleEvent: CalendarEvent }>()
 let expanded = ref<boolean>(false)

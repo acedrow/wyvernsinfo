@@ -2,8 +2,6 @@
 import { ref } from 'vue';
 import CollapsibleSection from '../shared/CollapsibleSection.vue';
 
-const SvgStrokeColor = "#e6e6e6"
-const size = "30"
 let expanded = ref<boolean>(false)
 </script>
 

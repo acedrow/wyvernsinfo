@@ -7,13 +7,13 @@ const getBgColor = (eventType: EventType) => {
         return '#bebe24'
     }
     if (eventType === EventType.away) {
-        return '#4da4bf'
+        return '#659cb6'
     }
     if (eventType === EventType.practice) {
         return '#ab5252'
     }
     if (eventType === EventType.meeting) {
-        return '#83537d'
+        return '#72466c'
     }
     return "#000000"
 }

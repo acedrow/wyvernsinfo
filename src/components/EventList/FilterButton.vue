@@ -18,6 +18,7 @@ watch(() => props.shown, (newShown) => {
 .filter-button {
     margin: 0 2px;
     border-radius: 5px;
+    height: 20px;
 }
 
 .active {

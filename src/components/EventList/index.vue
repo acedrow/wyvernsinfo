@@ -50,11 +50,14 @@ onMounted(async () => {
 </script>
 
 <template>
+  <h2 class="cal-header">Calendar</h2>
   <div class="filters-container">
-    Filters:
-    <FilterButton :shown="showEvents" label="Show Events" :callback="onClickEventsFilter"/>
-    <FilterButton :shown="showPractices" label="Show Practices" :callback="onClickPracticeFilter"/>
-    <FilterButton :shown="showMeetings" label="Show Meetings" :callback="onClickMeetingsFilter"/>
+    <h3>Filters:</h3>
+    <div class="buttons-container">
+      <FilterButton :shown="showEvents" label="Show Events" :callback="onClickEventsFilter" />
+      <FilterButton :shown="showPractices" label="Show Practices" :callback="onClickPracticeFilter" />
+      <FilterButton :shown="showMeetings" label="Show Meetings" :callback="onClickMeetingsFilter" />
+    </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
   <EventCard v-for="event in shownEvents" :key="event.summary" :googleEvent="event"></EventCard>
@@ -68,12 +71,17 @@ onMounted(async () => {
   min-height: 100%
 }
 
-.filters-container {
-  margin: 10px 0;
-  padding-top: 7px;
+.cal-header {
   border-top: solid #ffffffde;
-  font-weight: 600;
+  margin-top: 12px;
+  padding: 5px 0;
+}
 
+.filters-container {
+  margin-bottom: 10px;
+  display: flex;
+  min-height: 25px;
+  align-items: start;
 }
 
 .error {

@@ -31,7 +31,7 @@ watch(expanded, (value) => {
                 <h3>{{ googleEvent.summary }}</h3>
                 <div class="row expand-button-row">
                     <button v-if="googleEvent?.description?.length > 0" class="e-button expand"
-                        @click="expanded = !expanded">{{
+                        @click="expanded = !expanded" :title="!expanded ? 'Show Event Info' : 'Hide Event Info'">{{
                             ">"
                         }}</button>
                 </div>

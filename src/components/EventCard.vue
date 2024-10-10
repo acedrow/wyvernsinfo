@@ -26,19 +26,19 @@ watch(expanded, (value) => {
         <div class="col">
             <div class="row" id="header-row">
                 <h2>{{ event.summary }}</h2>
-                    <button id="expand-button" @click="expanded = !expanded">{{ ">" }}</button>
+                <button id="expand-button" @click="expanded = !expanded">{{ ">" }}</button>
 
             </div>
             <p v-if="expanded">{{ event.description }}</p>
         </div>
     </div>
-
-
 </template>
 
 <style scoped>
 .event-card {
     background-color: rgb(52, 89, 57);
+    width: 320px;
+    margin: 10px 0;
 }
 
 #header-row {
@@ -54,5 +54,4 @@ watch(expanded, (value) => {
     transform: v-bind('computedTransform');
     transition: transform 0.5s ease
 }
-
 </style>

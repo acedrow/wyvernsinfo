@@ -34,7 +34,7 @@ watch(() => props.expanded, (newExpanded) => {
 
 .v-enter-active,
 .v-leave-active {
-    transition: max-height 0.35s ease-in;
+    transition: max-height 0.5s ease-in;
     max-height: 500px;
     overflow: hidden;
 
@@ -42,7 +42,7 @@ watch(() => props.expanded, (newExpanded) => {
 
 .v-enter-from,
 .v-leave-to {
-    transition: max-height 0.35s ease-out;
+    transition: max-height 0.5s ease-out;
     max-height: 0px;
     overflow: hidden;
 

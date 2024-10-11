@@ -1,16 +1,12 @@
 <script setup lang="ts">
-import EventList from './components/EventList/index.vue';
-import TopMenu from './components/TopMenu/index.vue';
-
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
+
   <div class="app-container">
     <div class="main-column">
-      <TopMenu />
-      <p class="description">Official source of event calendar, practice schedule, and contact info for the Twin Cities Wyverns -
-        Minnesota's premier armored combat team.</p>
-      <EventList />
+      <RouterView />
     </div>
   </div>
 </template>

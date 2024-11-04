@@ -77,14 +77,25 @@ onMounted(async () => {
       <FilterButton :shown="showPractices" label="Practices" :callback="onClickPracticeFilter" />
       <FilterButton :shown="showMeetings" label="Meetings" :callback="onClickMeetingsFilter" />
       <FilterButton :shown="showAll" label="All" :callback="onClickAllFilter" />
-
     </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
+  <!-- TODO: remove winter break notif come spring -->
+  <div v-if="showEvents" class="winter-break">Winter break: The Wyverns are taking the winter off from home events to rest, prepare for the national tournament season, and develop our new fighters. See you in the spring!</div>
   <EventCard v-for="event in shownEvents" :key="event.summary" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>
+/* TODO: remove winter break notif come spring */
+.winter-break {
+  max-width: 500px;
+  height: fit-content;
+  font-weight: 600;
+  padding: 10px;
+  border: 2px solid #008EAA;
+  background-color: #003865;
+}
+
 .cal-header {
   border-top: solid #ffffffde;
   margin-top: 12px;

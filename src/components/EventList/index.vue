@@ -80,9 +80,7 @@ onMounted(async () => {
     </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
-  <!-- TODO: remove winter break notif come spring -->
-  <div v-if="showEvents" class="winter-break">Winter break: The Wyverns are taking the winter off from home events to rest, prepare for the national tournament season, and develop our new fighters. See you in the spring!</div>
-  <EventCard v-for="event in shownEvents" :key="event.summary" :googleEvent="event"></EventCard>
+ <EventCard v-for="event in shownEvents" :key="event.summary" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>

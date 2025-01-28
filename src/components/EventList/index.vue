@@ -3,7 +3,7 @@ import { onMounted, Ref, ref, watch } from 'vue';
 import EventCard from './EventCard/index.vue'
 import dayjs from 'dayjs/esm/index.js'
 import { CalendarEvent } from './types';
-import { filterEvents, sortEvents } from './utils';
+import { filterEvents, sortEventsByStartTime, sortEventsByStartTimeNoRecur } from './utils';
 import FilterButton from './FilterButton.vue';
 
 let allEvents: Ref<CalendarEvent[]> = ref([])
@@ -60,12 +60,35 @@ onMounted(async () => {
     errorMessage.value = error.message
   })
 
+  //only care about events in the future
   const futureEvents = result.items.filter((calItem: CalendarEvent) =>
     calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime).isAfter(dayjs()))
 
-  futureEvents.sort(sortEvents)
+  //remove duplicate events - keeping only the oldest copy of each event
+  const uniqueEvents: CalendarEvent[] = []
+  const parsedEventSummaries: String[] = []
 
-  allEvents.value = futureEvents
+  futureEvents.forEach((fevent: CalendarEvent) => {
+    if (parsedEventSummaries.includes(fevent.summary)) {
+      return;
+    }
+    const copies: CalendarEvent[] = []
+
+    //collect all events with the identical summaries in copies
+    futureEvents.forEach((compareEvent: CalendarEvent) => {
+      if (fevent.summary === compareEvent.summary) {
+        copies.push(compareEvent)
+      }
+    })
+    copies.sort(sortEventsByStartTimeNoRecur);
+
+    uniqueEvents.push(copies[0])
+    parsedEventSummaries.push(fevent.summary)
+  })
+
+  uniqueEvents.sort(sortEventsByStartTime)
+
+  allEvents.value = uniqueEvents
 })
 </script>
 
@@ -80,7 +103,7 @@ onMounted(async () => {
     </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
- <EventCard v-for="event in shownEvents" :key="event.id" :googleEvent="event"></EventCard>
+  <EventCard v-for="event in shownEvents" :key="event.id" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>

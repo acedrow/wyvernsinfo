@@ -51,13 +51,21 @@ export const parseRecurrenceString = (recurrence: string): string => {
   `;
 };
 
-export const sortEvents = (a: CalendarEvent, b: CalendarEvent): number => {
+export const sortEventsByStartTime = (a: CalendarEvent, b: CalendarEvent): number => {
   if (a.recurrence) {
     if (b.recurrence) {
       return 0;
     }
     return -1;
   }
+  return dayjs(a?.start?.date ?? a.start.dateTime).isBefore(
+    dayjs(b?.start?.date ?? b.start.dateTime)
+  )
+    ? -1
+    : 1;
+};
+
+export const sortEventsByStartTimeNoRecur = (a: CalendarEvent, b: CalendarEvent): number => {
   return dayjs(a?.start?.date ?? a.start.dateTime).isBefore(
     dayjs(b?.start?.date ?? b.start.dateTime)
   )

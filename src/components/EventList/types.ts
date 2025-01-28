@@ -12,6 +12,7 @@ export type CalendarEvent = {
     recurrence?: [string] | undefined;
     location?: string;
     hangoutLink?: string;
+    id: string;
 };
 
 export enum EventType {

@@ -80,7 +80,7 @@ onMounted(async () => {
     </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
- <EventCard v-for="event in shownEvents" :key="event.summary" :googleEvent="event"></EventCard>
+ <EventCard v-for="event in shownEvents" :key="event.id" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>

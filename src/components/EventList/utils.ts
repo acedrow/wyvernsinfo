@@ -16,7 +16,7 @@ export function ordinal_suffix_of(i: number) {
   return i + "th";
 }
 
-const recurrenceRegex = /RRULE:FREQ=(\w+);BYDAY=(\d*)(\w+)/gim;
+const recurrenceRegex = /RRULE:FREQ=(\w+);[\w=;]*BYDAY=(\d*)(\w+)/gim;
 
 const bydayToDayString = {
   mo: "Monday",
@@ -74,7 +74,6 @@ export const filterEvents = (
   let filteredEvents = allEvents;
 
   if (showEvents && showPractices && showMeetings) {
-    console.log('return all')
     return filteredEvents;
   }
 

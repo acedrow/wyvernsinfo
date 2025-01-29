@@ -4,25 +4,25 @@ import CollapsibleSection from "../../shared/CollapsibleSection.vue";
 
 const props = defineProps<{ description: string; expanded: boolean }>();
 
-const audienceDesc = (props.description.split("Fighters:")[0] ?? '').replace(matchEventType, '');
+const audienceDesc = (props.description.split("Participants:")[0] ?? '').replace(matchEventType, '');
 
-const fighterSection = props.description.split("Fighters:")[1] ?? undefined;
+const participantSection = props.description.split("Participants:")[1] ?? undefined;
 
 </script>
 
 <template>
     <CollapsibleSection :expanded="expanded" :show-border="true" class="description">
         <p v-html="audienceDesc"></p>
-        <div v-if="fighterSection" class="fighter-info-container">
-            <span class="fighter-info-title">Fighter Info:</span>
-            <span v-html="fighterSection"></span>
+        <div v-if="participantSection" class="participant-info-container">
+            <span class="participant-info-title">Participant Info:</span>
+            <span v-html="participantSection"></span>
         </div>
     </CollapsibleSection>
 
 </template>
 
 <style scoped>
-.fighter-info-title {
+.participant-info-title {
     font-weight: 700;
 }
 
@@ -30,7 +30,7 @@ const fighterSection = props.description.split("Fighters:")[1] ?? undefined;
     margin: 6px;
 }
 
-.fighter-info-container {
+.participant-info-container {
     margin-top: 12px;
 }
 </style>

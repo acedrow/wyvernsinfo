@@ -24,7 +24,7 @@ let expanded = ref<boolean>(false)
 
 <style lang="css" scoped>
 .main-header {
-    margin-left: 6px;
+    margin: 2px 0 6px 6px;
 }
 
 .row.topmenu-container {

@@ -21,8 +21,8 @@ const eventType = getEventType(props.googleEvent)
                 <EventTypeLabel :event-type="eventType" />
             </div>
             <DateTime :cal-event="googleEvent" />
-            <Description :description="googleEvent?.description" :expanded="expanded" />
-            <button v-if="googleEvent?.description?.length > 0" class="show-info" @click="expanded = !expanded"
+            <Description :description="googleEvent?.description || ''" :expanded="expanded" />
+            <button v-if="googleEvent?.description && googleEvent?.description?.length > 0" class="show-info" @click="expanded = !expanded"
                 :title="!expanded ? 'Show Event Info' : 'Hide Event Info'">
                 {{ !expanded ? 'Show Info' : 'Hide Info' }}
             </button>

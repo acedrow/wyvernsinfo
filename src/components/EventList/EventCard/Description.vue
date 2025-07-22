@@ -4,9 +4,9 @@ import CollapsibleSection from "../../shared/CollapsibleSection.vue";
 
 const props = defineProps<{ description: string; expanded: boolean }>();
 
-const audienceDesc = (props.description.split("Participants:")[0] ?? '').replace(matchEventType, '');
+const audienceDesc = (props.description?.split("Participants:")[0] ?? '').replace(matchEventType, '');
 
-const participantSection = props.description.split("Participants:")[1] ?? undefined;
+const participantSection = props.description?.split("Participants:")[1] ?? undefined;
 
 </script>
 

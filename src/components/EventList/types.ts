@@ -1,6 +1,6 @@
 export type CalendarEvent = {
     summary: string;
-    description: string;
+    description: string | undefined;
     start: {
         date?: string;
         dateTime?: string;

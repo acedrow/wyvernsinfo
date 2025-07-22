@@ -112,6 +112,9 @@ export const  matchEventType = /\[\[([\w\s]+)]]/gim;
 
 
 export const getEventType = (event: CalendarEvent) => {
+  if (!event?.description) {
+    return EventType.none;
+  }
   const tag = [...event?.description?.matchAll(matchEventType)]?.[0]?.[1];
   
   const matchAgainst = tag ?? event?.summary.toLowerCase()

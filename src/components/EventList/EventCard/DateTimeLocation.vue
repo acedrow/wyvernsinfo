@@ -12,9 +12,7 @@ const timeFormat = 'h:mmA'
 
 const location = props.calEvent?.location
 const meetingLink = props.calEvent?.hangoutLink
-const discord = props.calEvent?.location?.toLocaleLowerCase().includes("wyverns discord")
 const mapsBaseUrl = 'https://www.google.com/maps/search/?api=1&query='
-const discordInvite = import.meta.env.VITE_DISCORD_INVITE
 
 const startDate =
     dayjs(props.calEvent?.start.date
@@ -48,14 +46,11 @@ const parsedRecurrence = props.calEvent?.recurrence?.[0] ?
 
     </div>
     <div class="row">
-        <span v-if="location && !discord && !meetingLink" class="data-span"> 📍<a :href="mapsBaseUrl + location">
+        <span v-if="location && !meetingLink" class="data-span"> 📍<a :href="mapsBaseUrl + location">
                 {{ location.split(',')[0] }}
             </a></span>
         <span v-if="meetingLink" class="data-span"> 📟<a :href="meetingLink">
                 Google Hangouts
-            </a></span>
-        <span v-if="discord" class="data-span"> 📟<a :href="discordInvite">
-                Wyverns Discord
             </a></span>
     </div>
 

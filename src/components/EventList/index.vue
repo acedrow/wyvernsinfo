@@ -96,7 +96,7 @@ onMounted(async () => {
   <h2 class="cal-header">Calendar</h2>
   <div class="row filters-container">
     <div class="row buttons-container">
-      <FilterButton :shown="showEvents" label="Events" :callback="onClickEventsFilter" />
+      <FilterButton :first="true" :shown="showEvents" label="Events" :callback="onClickEventsFilter" />
       <FilterButton :shown="showPractices" label="Practices" :callback="onClickPracticeFilter" />
       <FilterButton :shown="showMeetings" label="Meetings" :callback="onClickMeetingsFilter" />
       <FilterButton :shown="showAll" label="All" :callback="onClickAllFilter" />

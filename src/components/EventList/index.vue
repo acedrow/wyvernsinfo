@@ -22,6 +22,7 @@ const onClickMeetingsFilter = () => handleFilterClick(false, false, true, false)
 let showAll = ref((localStorage.getItem('showAll') === 'true'));
 const onClickAllFilter = () => handleFilterClick(false, false, false, true)
 
+
 const handleFilterClick = (
   events: boolean,
   practices: boolean,
@@ -93,7 +94,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <h2 class="cal-header">Calendar</h2>
+  <h2>Calendar</h2>
   <div class="row filters-container">
     <div class="row buttons-container">
       <FilterButton :first="true" :shown="showEvents" label="Events" :callback="onClickEventsFilter" />
@@ -107,21 +108,6 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-/* TODO: remove winter break notif come spring */
-.winter-break {
-  max-width: 500px;
-  height: fit-content;
-  font-weight: 600;
-  padding: 10px;
-  border: 2px solid #008EAA;
-  background-color: #003865;
-}
-
-.cal-header {
-  border-top: solid #ffffffde;
-  margin-top: 12px;
-  padding-top: 5px;
-}
 
 .row.filters-container {
   margin-bottom: 10px;

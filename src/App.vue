@@ -1,12 +1,19 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
+import TopMenu from "./components/Header/index.vue";
+
 </script>
 
 <template>
 
   <div class="app-container">
-    <div class="main-column">
-      <RouterView />
+    <div class="col main-column">
+      <TopMenu />
+      <div class="content-container">
+        <RouterView class="content"/>
+      </div>
+      <footer class="footer" > </footer>
+
     </div>
   </div>
 </template>
@@ -14,17 +21,28 @@ import { RouterView } from 'vue-router';
 <style scoped>
 .app-container {
   width: 100%;
-  max-width: 500px;
   height: 100vh;
-  padding: 0 10px;
+  display: flex;
+} 
+
+.content {
+  width: 100%;
+}
+
+.col.main-column {
+  width: 100%;
+  align-items: center;
+}
+
+.content-container {
+  margin-top: 15px; 
+  max-width: 500px;
+  width: 100%;
   display: flex;
 }
 
-.description {
-  margin-top: 8px;
-}
-
-.main-column {
+.footer {
   width: 100%;
+  min-height: 50px;
 }
 </style>

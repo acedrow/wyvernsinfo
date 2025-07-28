@@ -20,7 +20,8 @@ import MainNav from './MainNav.vue';
 }
 
 .row.title-container {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .title {

@@ -10,7 +10,7 @@ import TopMenu from "./components/Header/index.vue";
     <div class="col main-column">
       <TopMenu />
       <div class="content-container">
-        <RouterView class="content"/>
+        <RouterView class="content padded"/>
       </div>
       <footer class="footer" > </footer>
 

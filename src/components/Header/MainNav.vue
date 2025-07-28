@@ -21,7 +21,7 @@
 .row.nav-items {
   padding: 2px 0;
   width: 500px;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .menu-item {

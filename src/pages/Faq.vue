@@ -17,7 +17,7 @@ const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
 
     <p>
       Armored Combat or 'Buhurt' (from old French 'Béhourd' which was used to
-      describe the knightly tournaments of the age) is a historiccombat sport in
+      describe the knightly tournaments of the age) is a historic combat sport in
       which fighters don period-accurate armor to engage in melee battles using
       blunted weapons. Our fights are full-contact, full-speed, and entirely
       unscripted.

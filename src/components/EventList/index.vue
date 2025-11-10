@@ -104,10 +104,24 @@ onMounted(async () => {
     </div>
   </div>
   <div v-if="errorMessage.length > 0" class="error">{{ errorMessage }}</div>
+
+  <!-- TODO: remove winter break notif come spring -->
+
+
+  <div v-if="showEvents" class="winter-break">Winter break: The Wyverns are taking the winter off from home events to
+    rest, prepare for the national tournament season, and develop our new fighters. Keep an eye out for our spring event announcements!</div>
   <EventCard v-for="event in shownEvents" :key="event.id" :googleEvent="event"></EventCard>
 </template>
 
 <style scoped>
+.winter-break {
+  max-width: 500px;
+  height: fit-content;
+  font-weight: 600;
+  padding: 10px;
+  border: 2px solid #008EAA;
+  background-color: #003865;
+}
 
 .row.filters-container {
   margin-bottom: 10px;

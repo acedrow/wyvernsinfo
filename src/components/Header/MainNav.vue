@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -7,6 +8,7 @@
       <RouterLink class="menu-item" to="/">Home</RouterLink>
       <RouterLink class="menu-item" to="/calendar">Calendar</RouterLink>
       <RouterLink class="menu-item" to="/faq">FAQ</RouterLink>
+      <RouterLink class="menu-item" to="/newmembers">New Members</RouterLink>
     </nav>
   </div>
 </template>
@@ -26,7 +28,7 @@
 
 .menu-item {
   color: #fff;
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
   font-weight: 600;
 

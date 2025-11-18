@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
 </script>
 
 <template>
@@ -18,8 +17,8 @@ const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
     <p>
       Armored Combat or 'Buhurt' (from old French 'Béhourd' which was used to
       describe the knightly tournaments of the age) is a historic combat sport in
-      which fighters don period-accurate armor to engage in melee battles using
-      blunted weapons. Our fights are full-contact, full-speed, and entirely
+      which fighters don period-accurate armor to engage in one-on-one or team-vs-team combat using
+      blunted steel weapons. Our fights are full-contact, full-speed, and entirely
       unscripted.
     </p>
 
@@ -59,11 +58,8 @@ const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
 
     <h3>How do I join?</h3>
 
-    We're always looking for new members! Our introductory practices are held
-    quarterly and are completely free. They cover the basics of the sport and
-    require no prior experience or special equipment. If interested, please fill
-    out our <a v-bind:href="`${membershipFormUrl}`">membership form</a> and
-    we'll reach out with details!
+    We're always looking for new members! See our <RouterLink to="/newmembers">new member page</RouterLink> for more information.
+
   </div>
 </template>
 

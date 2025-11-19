@@ -2,6 +2,9 @@
 const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
 </script>
 
+<!-- TODO: navigating from faq page doesn't reset the page scroll -->
+<!-- TODO: collapsible sections with expand/collapse all at top -->
+
 <template>
     <div>
         <h2>New Member Information</h2>

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import MainNav from './MainNav.vue';
-
 </script>
+
+<!-- TODO: add indentation to header, looks weird on mobile -->
 
 <template>
     <div class="col header-container">

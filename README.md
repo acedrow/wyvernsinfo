@@ -23,7 +23,3 @@ There are a few contextual strings that can be added to event descriptions to en
 
 run with `npm run dev`
 
-### dev TODOs:
-- shake expansion buttons
-- filter button animation
-

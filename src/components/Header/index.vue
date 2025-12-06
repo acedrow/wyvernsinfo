@@ -18,6 +18,7 @@ import MainNav from './MainNav.vue';
     width: 100%;
     background-color: var(--dark-green);
     align-items: center;
+    margin: 0 50px;
 }
 
 .row.title-container {
@@ -27,7 +28,7 @@ import MainNav from './MainNav.vue';
 
 .title {
     max-width: 500px;
-    margin: 2px 0 6px 0;
+    margin: 2px 0 6px 5px;
 }
 
 .menu {

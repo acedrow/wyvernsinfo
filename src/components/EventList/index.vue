@@ -63,7 +63,7 @@ onMounted(async () => {
 
   //only care about events in the future
   const futureEvents = result.items.filter((calItem: CalendarEvent) =>
-    calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime).isAfter(dayjs().add(1, 'day')))
+    calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime).isAfter(dayjs().subtract(1, 'day')))
 
   //remove duplicate events - keeping only the oldest copy of each event
   const uniqueEvents: CalendarEvent[] = []

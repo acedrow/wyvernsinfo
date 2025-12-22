@@ -8,24 +8,25 @@ const audienceDesc = (props.description?.split("Participants:")[0] ?? '').replac
 
 const participantSection = props.description?.split("Participants:")[1] ?? undefined;
 
-function replaceWithBr(toReplace: string) {
-  return toReplace.replace(/\n/g, "<br />")
-}
 
 </script>
 
 <template>
     <CollapsibleSection :expanded="expanded" :show-border="true" class="description">
-        <p v-html="audienceDesc"></p>
+        <p v-html="audienceDesc" class="description-text"></p>
         <div v-if="participantSection" class="participant-info-container">
             <span class="participant-info-title">Participant Info:</span>
-            <span v-html="replaceWithBr(participantSection)"></span>
+            <span v-html="participantSection"></span>
         </div>
     </CollapsibleSection>
 
 </template>
 
 <style scoped>
+.description-text {
+    white-space: pre-wrap;
+}
+
 .participant-info-title {
     font-weight: 700;
 }

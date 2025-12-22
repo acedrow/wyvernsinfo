@@ -8,6 +8,10 @@ const audienceDesc = (props.description?.split("Participants:")[0] ?? '').replac
 
 const participantSection = props.description?.split("Participants:")[1] ?? undefined;
 
+function replaceWithBr(toReplace: string) {
+  return toReplace.replace(/\n/g, "<br />")
+}
+
 </script>
 
 <template>
@@ -15,7 +19,7 @@ const participantSection = props.description?.split("Participants:")[1] ?? undef
         <p v-html="audienceDesc"></p>
         <div v-if="participantSection" class="participant-info-container">
             <span class="participant-info-title">Participant Info:</span>
-            <span v-html="participantSection"></span>
+            <span v-html="replaceWithBr(participantSection)"></span>
         </div>
     </CollapsibleSection>
 

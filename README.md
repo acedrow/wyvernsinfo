@@ -22,4 +22,3 @@ There are a few contextual strings that can be added to event descriptions to en
 ## Development:
 
 run with `npm run dev`
-

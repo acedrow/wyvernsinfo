@@ -16,7 +16,7 @@ const participantSection = props.description?.split("Participants:")[1] ?? undef
         <p v-html="audienceDesc" class="description-text"></p>
         <div v-if="participantSection" class="participant-info-container">
             <span class="participant-info-title">Participant Info:</span>
-            <span v-html="participantSection"></span>
+            <span v-html="participantSection" class="description-text"></span>
         </div>
     </CollapsibleSection>
 

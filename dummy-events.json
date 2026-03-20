@@ -1,0 +1,3000 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p33voja6diam960o\"",
+ "summary": "MN Armored Combat Calendar",
+ "description": "MN Armored Combat Calendar",
+ "updated": "2026-03-19T14:12:46.438Z",
+ "timeZone": "America/Chicago",
+ "accessRole": "reader",
+ "defaultReminders": [],
+ "nextSyncToken": "CP-JqM2SrJMDEAAYASDMtYymAyjMtYymAw==",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"3443700630464000\"",
+   "id": "5sf5he8o5f9mermq5f3kdd3dtt",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NXNmNWhlOG81ZjltZXJtcTVmM2tkZDNkdHQgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-03-12T21:30:38.000Z",
+   "updated": "2024-07-24T19:45:15.232Z",
+   "summary": "TEST EVENT Chaska River City Days",
+   "description": "Thurs July 25th \n- setup @ ASFOLK @ 5PM\n \nFri July 26th \n- call @ 4PM\n- show @ 6PM \n\nSat July 27th - \n- call @ 11AM\n- shows @ 1PM & 5PM \n\nSun July 28th \n- call at 9AM\n- shows @11AM & 3PM - teardown to follow. \n\nDemo fighting, outside, full list.",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2024-07-26"
+   },
+   "end": {
+    "date": "2024-07-29"
+   },
+   "transparency": "transparent",
+   "iCalUID": "5sf5he8o5f9mermq5f3kdd3dtt@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3446974920560000\"",
+   "id": "31hb5c82qte2qlukit4p69c6ji",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MzFoYjVjODJxdGUycWx1a2l0NHA2OWM2amkgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-08-06T18:51:43.000Z",
+   "updated": "2024-08-12T18:31:00.280Z",
+   "summary": "TEST EVENT Steel Practice",
+   "description": "Supplemental full-steel practice to prepare our fighters for Cream City Clash at the end of the month.",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-08-17T11:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-08-17T13:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "31hb5c82qte2qlukit4p69c6ji@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3447639990582000\"",
+   "id": "779ao24hi0k3ltsnvc4vc6430q",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Nzc5YW8yNGhpMGszbHRzbnZjNHZjNjQzMHEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-07-31T14:20:11.000Z",
+   "updated": "2024-08-16T14:53:15.291Z",   
+   "summary": "TEST EVENT Cream City Clash II",
+   "description": "Away event: Milwaukee\n\nFighters: \nSchedule:\u003c/br\u003e\n12pm - Event setup begins. \u003c/br\u003e\n2pm - Fighter meeting/check-in\u003c/br\u003e\n3pm - Doors open to public\u003c/br\u003e\n4pm - 1st period of 3s, 2 matches/squad\u003c/br\u003e\n6pm - 2nd period period of 3s, 2 matches/squad\u003c/br\u003e\n8pm - 5s, 2 matches/team\u003c/br\u003e",
+   "location": "The Bavarian Bierhaus, 700 W Lexington Blvd, Glendale, WI 53217, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-08-31T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-08-31T17:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "779ao24hi0k3ltsnvc4vc6430q@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3447680121126000\"",
+   "id": "7tg5124og04u1khfd671phq9rf",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N3RnNTEyNG9nMDR1MWtoZmQ2NzFwaHE5cmYgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-03-19T01:21:13.000Z",
+   "updated": "2024-08-16T20:27:40.563Z",
+   "summary": "TEST EVENT Bold North Adventure",
+   "description": "Come see the wyverns fight at MNRF's Bold North Adventure weekend! \n\nFighters:\nFriday: Setup at 5PM\n\u003c/br\u003e\u003c/br\u003e\nSaturday & Sunday Schedule: \u003c/br\u003e\n7AM - Arrive at Canterbury Downs Park & Ride, consolidate vehicles, drive to MNRF. \u003c/br\u003e\n8AM - All vehicles off-site\u003c/br\u003e\n9AM - Gates open to guests.\u003c/br\u003e\n10:30AM - Show #1\u003c/br\u003e\n12:30PM - Show #2\u003c/br\u003e\n3PM - Show #3\u003c/br\u003e\n7PM - Gates close to guests (Sunday: begin teardown)\u003c/br\u003e",
+   "location": "Minnesota Renaissance Festival, 12364 Chestnut Blvd, Shakopee, MN 55379, USA",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2024-08-24"
+   },
+   "end": {
+    "date": "2024-08-26"
+   },
+   "transparency": "transparent",
+   "iCalUID": "7tg5124og04u1khfd671phq9rf@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3448499039236000\"",
+   "id": "0ea1a34eum7lfiq09vagdopmod",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MGVhMWEzNGV1bTdsZmlxMDl2YWdkb3Btb2QgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-08-05T18:56:53.000Z",
+   "updated": "2024-08-21T14:11:59.618Z",
+   "summary": "TEST EVENT 2D Con Panel",
+   "description": "The Wyverns will be holding a panel at 2D Con! Convention attendees can come through for live combat demos and an informational session about our sport.\n\nFighters: Roster for this event is closed.",
+   "location": "DoubleTree by Hilton Hotel Bloomington - Minneapolis South, 7800 Normandale Blvd, Minneapolis, MN 55439, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-08-23T17:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-08-23T20:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "0ea1a34eum7lfiq09vagdopmod@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3450768239128000\"",
+   "id": "6gsj0e1occojgbb6c5i62b9kccq30b9ocpgm4b9k64p3idhi6opj6p9j6o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmdzajBlMW9jY29qZ2JiNmM1aTYyYjlrY2NxMzBiOW9jcGdtNGI5azY0cDNpZGhpNm9wajZwOWo2byBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-08-29T04:16:04.000Z",
+   "updated": "2024-09-03T17:21:59.564Z",
+   "summary": "TEST EVENT Dallahast Dueller II",
+   "description": "[[home event]]The second annual Dalahast Dueller duels tournament at Scandia Taco Daze. The first bouts begin at 11am!\n\nFighters: 9am setup. Contact Isa Martell to sign up to fight or support.",
+   "location": "Scandia City Hall, 14727 209th St N, Scandia, MN 55073, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-09-07T11:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-09-07T15:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "6gsj0e1occojgbb6c5i62b9kccq30b9ocpgm4b9k64p3idhi6opj6p9j6o@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3450769202206000\"",
+   "id": "3ftk9u1gg4fgphq672grrev7j0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2Z0azl1MWdnNGZncGhxNjcyZ3JyZXY3ajAgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-08-30T15:25:37.000Z",
+   "updated": "2024-09-03T17:30:01.103Z",
+   "summary": "TEST EVENT Carolina Carnage",
+   "description": "[[away event]]\nThe Wyverns return to Carolina Carnage to represent Minnesota at the largest buhurt tournament in the country!\u003c/br\u003e",
+   "location": "T. Ed Garrison Arena, 1101 W Queen St, Pendleton, SC 29670, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-01-31"
+   },
+   "end": {
+    "date": "2025-02-03"
+   },
+   "transparency": "transparent",
+   "iCalUID": "3ftk9u1gg4fgphq672grrev7j0@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3450948153140000\"",
+   "id": "7h332ba0nrln0uljeb92uulctv",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2gzMzJiYTBucmxuMHVsamViOTJ1dWxjdHYgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-09-04T18:08:51.000Z",
+   "updated": "2024-09-04T18:21:16.570Z",
+   "summary": "TEST EVENT Heartland Duels",
+   "description": "[[away event]]Check the \u003ca href=\"https://www.facebook.com/events/860764775720289\" target=\"_blank\"\u003efacebook event\u003c/a\u003e for general info and tickets. Fighter registration through \u003ca href=\"https://www.buhurtinternational.com/tournament/heartland-duels-2024\" target=\"_blank\"\u003eBuhurt International\u003c/a\u003e",
+   "location": "Nebraska Brewing Company Tap Room & Brewery, 6950 S 108th St, La Vista, NE 68128, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-23T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-11-23T22:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "7h332ba0nrln0uljeb92uulctv@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3455302788242000\"",
+   "id": "64nlbv647bgj9nb6sbhppbbiak",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NjRubGJ2NjQ3YmdqOW5iNnNiaHBwYmJpYWsgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-06-03T02:30:57.000Z",
+   "updated": "2024-09-29T23:09:54.121Z",
+   "summary": "TEST EVENT War in the North",
+   "description": "[[home event]]The premier mass-battles tournament. Come see teams from across the country clash in twenty-man brawls for victory. \n\nTickets available now!  (https://shorturl.at/wdTMD)\n\nFighters: \nSetup Friday @ 5PM. Fighters and support arrive at ASC by 8am sharp on Saturday. Weapon check at 9am, tournament begins at 11am. Teardown Sunday.",
+   "location": "Adrenaline Sports Center, 8310 147 Ln NW, Ramsey, MN 55303, USA",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-10-05T11:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-10-05T19:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "64nlbv647bgj9nb6sbhppbbiak@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3455591647338000\"",
+   "id": "5er6ct4doqj2bkulusc2pfk7iu",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NWVyNmN0NGRvcWoyYmt1bHVzYzJwZms3aXUgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-09-23T17:47:54.000Z",
+   "updated": "2024-10-01T15:17:03.669Z",
+   "summary": "TEST EVENT Wyverns Brood Meeting ",
+   "description": "Team meeting to discuss end-of-year priorities and goals for next year. All dues-paying MNAC members in good standing are welcome to attend.\u003cbr\u003eAgenda:\u003cbr\u003e\u003cul\u003e\u003cli\u003eCaptain leadership transition\u003c/li\u003e\u003cli\u003eCommunication preferences\u003c/li\u003e\u003cli\u003eDemo/home event planning roadmap 2025\u003c/li\u003e\u003cli\u003eCompetition squad preparation and goals 2025\u003c/li\u003e\u003cli\u003eCarolina Carnage\u003c/li\u003e\u003cli\u003eOpen floor for questions/other topics.\u003c/li\u003e\u003c/ul\u003e",
+   "location": "Wyverns Discord",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-10-14T20:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-10-14T21:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "5er6ct4doqj2bkulusc2pfk7iu@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3460138698094000\"",
+   "id": "6554cilh0us9djjo72ggsatai6",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NjU1NGNpbGgwdXM5ZGpqbzcyZ2dzYXRhaTYgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-08-05T19:01:00.000Z",
+   "updated": "2024-10-27T22:49:09.047Z",
+   "summary": "Brewhaus Brawl",
+   "description": "[[home event]]The Wyverns return to Chaska MN for more exciting fights! \u003ca href=\"https://www.eventbrite.com/e/brewhaus-brawl-tickets-1043253448147\" target=\"_blank\"\u003eTickets available now!\u003c/a\u003e\u003cbr\u003e\u003cbr\u003eFighters: Fighters and support called at noon, doors at 3pm, event start at 4pm.",
+   "location": "Schram Haus Brewery, 3700 Chaska Blvd, Chaska, MN 55318, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-02T15:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-11-02T19:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6554cilh0us9djjo72ggsatai6@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3461463723320000\"",
+   "id": "6ig4dut256ibraiu3q8j9o7n4f",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmlnNGR1dDI1NmlicmFpdTNxOGo5bzduNGYgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-11-04T14:51:01.000Z",
+   "updated": "2024-11-04T14:51:01.660Z",
+   "summary": "Competitive Practice",
+   "description": "Carnage competitive prep practice. All active MNAC members interested in competitive events are encouraged to attend.",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-13T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-11-13T20:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "6ig4dut256ibraiu3q8j9o7n4f@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3463430612834000\"",
+   "id": "44q6s92sq01d4vrdk5uv38qahp",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NDRxNnM5MnNxMDFkNHZyZGs1dXYzOHFhaHAgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-11-16T00:01:46.000Z",
+   "updated": "2024-11-16T00:01:46.417Z",
+   "summary": "Competitive Practice",
+   "description": "Carnage competitive prep practice. All active MNAC members interested in competitive events are encouraged to attend.",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-11-20T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-11-20T20:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "44q6s92sq01d4vrdk5uv38qahp@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3465308384386000\"",
+   "id": "6jfc0ffij1dmvgtpnt79bbhfqc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmpmYzBmZmlqMWRtdmd0cG50NzliYmhmcWMgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-11-26T20:49:52.000Z",
+   "updated": "2024-11-26T20:49:52.193Z",
+   "summary": "MNAC Holiday Party",
+   "description": "Check discord/weekly post for time/location/details.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-12-13T19:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-12-13T23:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "6jfc0ffij1dmvgtpnt79bbhfqc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3465308400204000\"",
+   "id": "7n7usnlj800nn21l47vfpvsmuh",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N243dXNubGo4MDBubjIxbDQ3dmZwdnNtdWggbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2024-11-26T20:49:18.000Z",
+   "updated": "2024-11-26T20:50:00.102Z",
+   "summary": "Asfolk Cleanup",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-12-11T18:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-12-11T20:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "7n7usnlj800nn21l47vfpvsmuh@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3472361869846000\"",
+   "id": "5h74bnqmcs86qhja8hjtjabh35",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NWg3NGJucW1jczg2cWhqYThoanRqYWJoMzUgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-06T16:28:54.000Z",
+   "updated": "2025-01-06T16:28:54.923Z",
+   "summary": "Competitive Practice - Steel",
+   "description": "Carnage competitive prep practice. All active MNAC members interested in competitive events are encouraged to attend.",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-01-15T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-01-15T20:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "5h74bnqmcs86qhja8hjtjabh35@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3472552483684000\"",
+   "id": "617nggnj7qjc06a99adps6s8ur",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NjE3bmdnbmo3cWpjMDZhOTlhZHBzNnM4dXIgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-07T16:25:09.000Z",
+   "updated": "2025-01-07T18:57:21.842Z",
+   "summary": "MNAC Board Meeting",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-01-15T21:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-01-15T21:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "617nggnj7qjc06a99adps6s8ur@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://meet.google.com/kht-decv-bmx",
+   "conferenceData": {
+    "entryPoints": [
+     {
+      "entryPointType": "video",
+      "uri": "https://meet.google.com/kht-decv-bmx",
+      "label": "meet.google.com/kht-decv-bmx"
+     },
+     {
+      "entryPointType": "more",
+      "uri": "https://tel.meet/kht-decv-bmx?pin=1164867716155",
+      "pin": "1164867716155"
+     },
+     {
+      "regionCode": "US",
+      "entryPointType": "phone",
+      "uri": "tel:+1-502-771-5190",
+      "label": "+1 502-771-5190",
+      "pin": "825271724"
+     }
+    ],
+    "conferenceSolution": {
+     "key": {
+      "type": "hangoutsMeet"
+     },
+     "name": "Google Meet",
+     "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+    },
+    "conferenceId": "kht-decv-bmx"
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3474802618826000\"",
+   "id": "362goul1u9hn9f4n6a7p953asl",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MzYyZ291bDF1OWhuOWY0bjZhN3A5NTNhc2wgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-06T16:29:04.000Z",
+   "updated": "2025-01-20T19:28:29.413Z",
+   "summary": "Competitive Practice - Soft",
+   "description": "Carnage competitive prep practice. All active MNAC members interested in competitive events are encouraged to attend.",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-01-22T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-01-22T20:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "362goul1u9hn9f4n6a7p953asl@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3478407669978000\"",
+   "id": "3iumk4r3j3vk9mmunfb9739v8q",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2l1bWs0cjNqM3ZrOW1tdW5mYjk3Mzl2OHEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-10T16:10:35.000Z",
+   "updated": "2025-02-10T16:10:34.989Z",
+   "summary": "Support Training",
+   "description": "[[practice]]\n\nWorkshop dedicated to teaching the basics of fighter support, open to all MNAC members.",
+   "location": "Asfolk, 625 Yankee Doodle Rd #120, Eagan, MN 55121, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-02-19T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-02-19T20:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "3iumk4r3j3vk9mmunfb9739v8q@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3478431567526000\"",
+   "id": "4huocr91d9srlso73dpah4hm71",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NGh1b2NyOTFkOXNybHNvNzNkcGFoNGhtNzEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-10T04:23:49.000Z",
+   "updated": "2025-02-10T19:29:43.763Z",
+   "summary": "Winter Beer Dabbler",
+   "description": "[[home event]]\u003cbr\u003eThe Twin Cities Wyverns' 2025 Season opener! Come through and warm up your winter with delicious brews and exciting action! \u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://beerdabbler.com/winter-beer-dabbler/\" target=\"_blank\"\u003eTickets here\u003c/a\u003e\u003cbr\u003e\u003cbr\u003eParticipants:\u003cbr\u003e\u003cbr\u003eSign ups are closed.\u003cbr\u003e\u003cbr\u003eSchedule:\u003cbr\u003e - Call time &amp; setup: 1pm\u003cbr\u003e- \u003cspan\u003eKit up by 2:30pm and do warm ups for early crowd\u003c/span\u003e\u003cbr\u003e\u003cspan\u003e- Show 3pm - 6pm:  Event organizer wants 'continuous fighting' - we'll be doing 2 fights every quarter hour for the 3 hour period with some free-for-alls thrown in for fun. Fights will be scheduled such that you'll get good breaks and and an opportunity to explore the festival and try some beer.\u003c/span\u003e\u003cbr\u003e\u003cspan\u003e- Teardown asap after show, trailer can be onsite at 7, out by 8.\u003c/span\u003e\u003cbr\u003e\u003cspan\u003e\u003cbr\u003e\u003c/span\u003e\u003cbr\u003e\u003cspan\u003eNotes:\u003c/span\u003e\u003cbr\u003e- We will have a fairly large, private locker room close to the list, and a 2nd one not much farther if we need it\u003cbr\u003e- Nearby water kegs and EMS, security\u003cbr\u003e- limited parking, will need to plan carpools\u003cbr\u003e- lots of food trucks, can enjoy the beer\u003cbr\u003e- Limited # of passes means limited # of support.\u003cbr\u003e- Need to be on extra good behavior - many eyes on us - especially want to make a good impression with Dabbler organizers and State Fair hosts.\u003cbr\u003e\u003cspan\u003e\u003cbr\u003e\u003c/span\u003e",
+   "location": "MN State Fairgrounds, Hoyt Ave W, Falcon Heights, MN 55108, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-02-22T15:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-02-22T18:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "4huocr91d9srlso73dpah4hm71@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3480166469620000\"",
+   "id": "0rgpmclopqc8eifs5pa89r6f3r",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MHJncG1jbG9wcWM4ZWlmczVwYTg5cjZmM3IgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-10T04:26:33.000Z",
+   "updated": "2025-02-20T20:27:14.810Z",
+   "summary": "St. Patrick's Brawl 2025",
+   "description": "[[away event]]\u003cbr\u003e6 teams from around the midwest return to Nebraska Brewing Company to battle for gold and glory!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/events/491267680257750\"\u003eTickets and Event Info\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://forms.gle/yBM9bhhhcG1qJtnWA\" target=\"_blank\"\u003eFighter &amp; Support sign ups\u003c/a\u003e",
+   "location": "Nebraska Brewing Company Tap Room & Brewery, 6950 S 108th St, La Vista, NE 68128, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-03-22T18:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-03-22T21:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "0rgpmclopqc8eifs5pa89r6f3r@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3481044916036414\"",
+   "id": "7ivomglrdtf7lstl47jsh2jd51",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2l2b21nbHJkdGY3bHN0bDQ3anNoMmpkNTEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-25T22:26:33.000Z",
+   "updated": "2025-02-25T22:27:38.018Z",
+   "summary": "New Member Intro Practice",
+   "description": "New member practices are conducted each quarter and provide an introduction to our team and the sport for our new members. If you're interested in joining our team and attending this practice please \u003ca href=\"https://forms.gle/RsFqi6o3EbvquaES7\"\u003efill out the intake form \u003c/a\u003eand details will be provided via email. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003elinden.holt@mn-armored-combat.org\u003c/a\u003e with any questions",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-03-30T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-03-30T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "7ivomglrdtf7lstl47jsh2jd51@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3481335768528254\"",
+   "id": "3lt5mudjjsqrqe3p76vdr5n0m0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2x0NW11ZGpqc3FycWUzcDc2dmRyNW4wbTAgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-25T18:58:35.000Z",
+   "updated": "2025-02-27T14:51:24.264Z",
+   "summary": "MNAC Finance Meeting",
+   "description": "Agenda:\n- Resolve Carnage expenses",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-02-28T17:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-02-28T18:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "3lt5mudjjsqrqe3p76vdr5n0m0@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3481931007662590\"",
+   "id": "5tf1k7v5omdgh45ld12285ebjd",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NXRmMWs3djVvbWRnaDQ1bGQxMjI4NWViamQgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-10T04:28:03.000Z",
+   "updated": "2025-03-03T01:31:43.831Z",
+   "summary": "Medieval Mayhem",
+   "description": "[[away event]]\u003cbr\u003e\u003cbr\u003eWisMCC and The Milwaukee Iron Stags present Medieval Mayhem, a night of medieval tournament style fighting. We are in a new venue this time around and working with Soundcheck Entertainment to bring you our best show yet!\u003cbr\u003e\u003cbr\u003eThis event displays the sport of armored combat, a non-scripted fully competitive sport based around medieval tournament fighting. You’ll see real steel weapons and armor on display as the competitors fight for victory and your admiration!\u003cbr\u003e\u003cbr\u003eLocated at Shotzy’s 2, 6922 W Orchard St. West Allis, WI 53214. The event will take place on April 5th 2025 from 8:00-10:00pm with doors opening at 7:00PM. Tickets are $30 each and can be purchased through the Eventbrite link.\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.eventbrite.com/e/medieval-mayhem-takes-over-west-allis-tickets-1234141463339?aff=oddtdtcreator\"\u003eTickets\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/share/18edyJF88E/\" target=\"_blank\"\u003eFacebook Event\u003c/a\u003e",
+   "location": "Shotzy's Country Rock Bar 2, 6922 W Orchard St, Milwaukee, WI 53214, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-05T20:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-05T22:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "5tf1k7v5omdgh45ld12285ebjd@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3482376951291198\"",
+   "id": "0v0g8kpc3tbdvg6aq8ku1hjrkc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MHYwZzhrcGMzdGJkdmc2YXE4a3UxaGpya2MgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-24T17:33:28.000Z",
+   "updated": "2025-03-05T15:27:55.645Z",
+   "summary": "Buhurt International World Championships",
+   "description": "[[away event]]\u003cbr\u003eA few Wyverns will be making the journey to Hungary to represent team USA at the 2025 Buhurt International World Championships!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/events/1137033664336834\" target=\"_blank\"\u003eEvent info\u003c/a\u003e",
+   "location": "Visegrád Castle - Citadel, Visegrád, Várhegy, 2025 Hungary",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-07-16"
+   },
+   "end": {
+    "date": "2025-07-21"
+   },
+   "transparency": "transparent",
+   "iCalUID": "0v0g8kpc3tbdvg6aq8ku1hjrkc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3483273115406270\"",
+   "id": "1v66l5bkdvie6ldpp105hd60s7",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MXY2Nmw1YmtkdmllNmxkcHAxMDVoZDYwczcgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-20T20:13:39.000Z",
+   "updated": "2025-03-10T19:55:57.703Z",
+   "summary": "Tournament of Legends",
+   "description": "[[away event]]Buhurt International ranked tournament with group fights and duels held at the Festival of Legends! Melees Saturday, duels Sunday.\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/events/8993149454066911\" target=\"_blank\"\u003eFacebook Event\u003c/a\u003e\u003cbr\u003e\u003ca href=\"https://www.buhurtinternational.com/tournament/tournament-of-legends\" target=\"_blank\"\u003eBuhurt International Listing\u003c/a\u003e",
+   "location": "Sugg Farm at Bass Lake Park, Grigsby Ave, Holly Springs, NC 27540, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-26T09:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-27T18:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "1v66l5bkdvie6ldpp105hd60s7@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3486026364213758\"",
+   "id": "1g0krpj12oaiqbfv9ff4i0cm5e",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWcwa3JwajEyb2FpcWJmdjlmZjRpMGNtNWUgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-20T20:15:48.000Z",
+   "updated": "2025-03-26T18:19:42.106Z",
+   "summary": "TEST EVENT Cream City Clash III",
+   "description": "[[away event]]Mark your calendars for the the 3rd annual Cream City Clash! Join Wisconsin Medieval Combat Center and The Milwaukee Iron Stags as they host teams from around the country for a day of medieval tournament style armored combat! This event will showcase the team based side of armored combat known as melees.\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/events/1690552628539756\" target=\"_blank\"\u003eFacebook Event\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://forms.gle/3ZdYFPMboYcxLe2Q9\"\u003eParticipant Sign Ups\u003c/a\u003e",
+   "location": "The Bavarian Bierhaus, 700 W Lexington Blvd, Glendale, WI 53217, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-08-30T15:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-08-30T21:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "1g0krpj12oaiqbfv9ff4i0cm5e@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3488128558073342\"",
+   "id": "1sp95a7r35rg452q5rmkvsojqh",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MXNwOTVhN3IzNXJnNDUycTVybWt2c29qcWggbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-03T18:00:20.000Z",
+   "updated": "2025-04-07T22:17:59.036Z",
+   "summary": "New Member Summer Intro Class",
+   "description": "[[home event]]\u003cbr\u003e\u003cbr\u003eNew member introductory classes are conducted each quarter and provide an introduction to our team and the sport for our new members. Best part is, they're completely free! If you're interested in joining our team and attending this lesson please \u003ca href=\"https://docs.google.com/forms/d/e/1FAIpQLSdVzfRKVnYLlCFrgjhnOs8qOa4OuqgXBXE3S5GJQsUq8cesBg/viewform?usp=dialog\" target=\"_blank\"\u003efill out the intake form \u003c/a\u003eand details will be provided via email. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003elinden.holt@mn-armored-combat.org\u003c/a\u003e with any questions",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-06-29T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-06-29T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "1sp95a7r35rg452q5rmkvsojqh@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3488128835324734\"",
+   "id": "00prc12fjumrp10cc5qqjoo19h",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDBwcmMxMmZqdW1ycDEwY2M1cXFqb28xOWggbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-07T22:16:31.000Z",
+   "updated": "2025-04-07T22:20:17.662Z",
+   "summary": "Waba-Bash!",
+   "description": "[[home event]]\u003cbr\u003e\u003cbr\u003eCome join us at Wabasha brewing company for an evening of full contact armored fighting!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://forms.gle/Tjwf4ZzdH3fnC4v36\"\u003eParticipant sign-ups here\u003c/a\u003e",
+   "location": "Wabasha Brewing Company, 429 Wabasha St S, St Paul, MN 55107, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-06-28T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-06-28T21:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "00prc12fjumrp10cc5qqjoo19h@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3490024147279262\"",
+   "id": "2no95gevkv9he7kpuf45nk3ht4",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Mm5vOTVnZXZrdjloZTdrcHVmNDVuazNodDQgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-18T21:34:33.000Z",
+   "updated": "2025-04-18T21:34:33.639Z",
+   "summary": "All-Team Practice",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-19T10:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-20T00:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "2no95gevkv9he7kpuf45nk3ht4@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3490024165428638\"",
+   "id": "071n21p4e6o22pg3u8obl9uqf1",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDcxbjIxcDRlNm8yMnBnM3U4b2JsOXVxZjEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-18T21:34:42.000Z",
+   "updated": "2025-04-18T21:34:42.714Z",
+   "summary": "All-Team Practice",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-20T10:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-21T00:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "071n21p4e6o22pg3u8obl9uqf1@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3490859246014206\"",
+   "id": "7tr3p3hd5i47pt94b5iesul4fi",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N3RyM3AzaGQ1aTQ3cHQ5NGI1aWVzdWw0ZmkgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-02-20T20:04:05.000Z",
+   "updated": "2025-04-23T17:33:43.007Z",
+   "summary": "TEST EVENT Colorado Medieval Festival",
+   "description": "[[away event]]\n\nThe Wyverns return for the 3rd year in a row to one of our favorite ren faires - the Colorado Medieval Festival!\n\nParticipants:\n\nThis event is always a blast. The Wardens have some top-tier fighters on both the melee and duels side so the quality of fights is very high. \n\n2 days, mix of demo and light tournament fighting. Duels & melees. Will be a Buhurt International event. Camping options on-site.\n\nParticipant sign-ups are closed.",
+   "location": "Savage Woods, Creepy Walk, Christmas Walk, Colorado Medieval Festival, 1750 Savage Rd, Loveland, CO 80538, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-06-07T09:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-06-08T18:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "7tr3p3hd5i47pt94b5iesul4fi@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3492216902841150\"",
+   "id": "copm4or5cph36b9g6kq64b9k6hh30b9pcor62b9ncoqj4cj16cp3aopj6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Y29wbTRvcjVjcGgzNmI5ZzZrcTY0YjlrNmhoMzBiOXBjb3I2MmI5bmNvcWo0Y2oxNmNwM2FvcGo2YyBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2025-05-01T14:07:31.000Z",
+   "updated": "2025-05-01T14:07:31.420Z",
+   "summary": "TEST EVENT Film review",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-05-02T18:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-05-02T20:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "copm4or5cph36b9g6kq64b9k6hh30b9pcor62b9ncoqj4cj16cp3aopj6c@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3492232201132318\"",
+   "id": "6agmri2gu06h4k7e3r5ks87g21",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmFnbXJpMmd1MDZoNGs3ZTNyNWtzODdnMjEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-05-01T16:15:00.000Z",
+   "updated": "2025-05-01T16:15:00.566Z",
+   "summary": "TEST EVENT Red River Valley Renaissance Faire",
+   "description": "[[away event]]The Wyverns are bringing full-contact armored combat to the RRV Ren Faire for the 2nd year in a row!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://docs.google.com/forms/d/e/1FAIpQLSdDKGmOllltzIbbgEXDaBjSJjno_otXQNXLNqPod9rLBoYWWQ/viewform?usp=dialog\"\u003eParticipant Sign-ups\u003c/a\u003e",
+   "location": "Red River Valley Fair Association, 1805 Main Ave W, West Fargo, ND 58078, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-08-02"
+   },
+   "end": {
+    "date": "2025-08-04"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6agmri2gu06h4k7e3r5ks87g21@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3492232252936574\"",
+   "id": "6jcnmpqb79s6172bca57s6p622",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Nmpjbm1wcWI3OXM2MTcyYmNhNTdzNnA2MjIgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-05-01T16:15:26.000Z",
+   "updated": "2025-05-01T16:15:26.468Z",
+   "summary": "TEST EVENT Red River Valley Renaissance Faire",
+   "description": "[[away event]]The Wyverns are bringing full-contact armored combat to the RRV Ren Faire for the 2nd year in a row!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSdDKGmOllltzIbbgEXDaBjSJjno_otXQNXLNqPod9rLBoYWWQ/viewform?usp%3Ddialog&amp;sa=D&amp;source=calendar&amp;ust=1746548100163527&amp;usg=AOvVaw2ijPuiQLK2Axlgvmyq3zv4\" target=\"_blank\"\u003eParticipant Sign-ups\u003c/a\u003e",
+   "location": "Red River Valley Fair Association, 1805 Main Ave W, West Fargo, ND 58078, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-08-09"
+   },
+   "end": {
+    "date": "2025-08-11"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6jcnmpqb79s6172bca57s6p622@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3493774142627806\"",
+   "id": "7eb5p5gmh8u5fara5mgkbj2csu",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2ViNXA1Z21oOHU1ZmFyYTVtZ2tiajJjc3UgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-01-24T00:00:00.000Z",
+   "updated": "2025-05-10T14:24:31.313Z",
+   "summary": "TEST EVENT Knights & Pints",
+   "description": "[[home event]]Boom Island Brewing is hosting the first-ever Knights &amp; Pints event, a full day of all-things-Medieval! \u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/events/1147174010286258\" target=\"_blank\"\u003eMore details on facebook\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cb\u003eParticipant Schedule:\u003cbr\u003e\u003c/b\u003e10:00AM - Load list at Asfolk\u003cbr\u003e1PM - All participants on-site\u003cbr\u003e3PM - Fights start\u003cbr\u003e6PM - fights end\u003cbr\u003eTeardown and load out immediately.",
+   "location": "Boom Island Brewing Company, 5959 Baker Rd #320, Minnetonka, MN 55345, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-05-17T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-05-17T23:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "7eb5p5gmh8u5fara5mgkbj2csu@google.com",
+   "sequence": 3,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3499171125840702\"",
+   "id": "1fbv0rjfing7qq17il0ffht79n",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWZidjByamZpbmc3cXExN2lsMGZmaHQ3OW4gbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-06-10T19:17:11.000Z",
+   "updated": "2025-06-10T19:59:22.920Z",
+   "summary": "MNAC Board Meeting",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-06-10T18:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-06-10T19:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "1fbv0rjfing7qq17il0ffht79n@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://meet.google.com/wng-hxgg-xrq",
+   "conferenceData": {
+    "entryPoints": [
+     {
+      "entryPointType": "video",
+      "uri": "https://meet.google.com/wng-hxgg-xrq",
+      "label": "meet.google.com/wng-hxgg-xrq"
+     },
+     {
+      "entryPointType": "more",
+      "uri": "https://tel.meet/wng-hxgg-xrq?pin=5581958925621",
+      "pin": "5581958925621"
+     },
+     {
+      "regionCode": "US",
+      "entryPointType": "phone",
+      "uri": "tel:+1-402-381-3147",
+      "label": "+1 402-381-3147",
+      "pin": "407397187"
+     }
+    ],
+    "conferenceSolution": {
+     "key": {
+      "type": "hangoutsMeet"
+     },
+     "name": "Google Meet",
+     "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+    },
+    "conferenceId": "wng-hxgg-xrq"
+   },
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3500968372617886\"",
+   "id": "2430jh9sq0tn9ju8pp57o1dcgh",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjQzMGpoOXNxMHRuOWp1OHBwNTdvMWRjZ2ggbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-23T17:30:20.000Z",
+   "updated": "2025-06-21T05:36:26.308Z",
+   "summary": "Doobie Dabbler",
+   "description": "[[home event]]\u003cbr\u003e\u003cbr\u003e\u003cspan\u003e\u003cbr\u003eThe Doobie Dabbler is the end-of-summer adventure returning in 2025 to Sever’s festival grounds, spanning 100 acres.\u003cbr\u003e\u003cbr\u003eWith a blend of local Minnesotan culture and [redacted], the two-day open-air event features 30+ unique activities, including one of the top corn mazes in the country, multiple live music stages, a Giant Slide, BMX, and an amazing new lineup of activations and experiences including Petting Zoo, Pig Races, Scavenger Hunt Hayride (and the Twin Cities Wyverns beating the heck out of each other for your entertainment)\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://forms.gle/RRSPhmDGXiJPrKVT6\"\u003eParticipant Sign-ups\u003c/a\u003e\u003cbr\u003e\u003c/span\u003e",
+   "location": "Sever's Festivals, 3121 W 150th St, Shakopee, MN 55379, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-09-05"
+   },
+   "end": {
+    "date": "2025-09-07"
+   },
+   "transparency": "transparent",
+   "iCalUID": "2430jh9sq0tn9ju8pp57o1dcgh@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3503886513925310\"",
+   "id": "13qn57qc4j35ud07pbv3q3qu6j",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MTNxbjU3cWM0ajM1dWQwN3BidjNxM3F1NmogbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-23T17:25:46.000Z",
+   "updated": "2025-07-08T02:54:16.962Z",
+   "summary": "Chaska River City Days",
+   "description": "[[home event]]\u003cbr\u003eThe Wyverns are bringing medieval action to River City Days for the 3rd year in a row!\u003cbr\u003e\u003cbr\u003eShowtimes:\u003cbr\u003eFriday: 6PM\u003cbr\u003eSaturday: 1PM, 3PM, 5PM\u003cbr\u003eSunday: 11AM, 1PM, 3PM\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://forms.gle/BNfedbVbyeDp5FcL7\" target=\"_blank\"\u003eParticipant sign-ups\u003c/a\u003e",
+   "location": "Lions Park, 1300 Crosstown Blvd, Chaska, MN 55318, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-07-25"
+   },
+   "end": {
+    "date": "2025-07-28"
+   },
+   "transparency": "transparent",
+   "iCalUID": "13qn57qc4j35ud07pbv3q3qu6j@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3508635986458718\"",
+   "id": "1eifjno4fkjgsih7e30nmn8ftc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWVpZmpubzRma2pnc2loN2UzMG5tbjhmdGMgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-04-23T17:32:54.000Z",
+   "updated": "2025-08-04T14:33:13.229Z",
+   "summary": "War in the North",
+   "description": "[[away event]]\n\nMNAC has partnered with Armored MMA to bring 12v12 armored combat to the AMMA finals in Canton OH!",
+   "location": "Pro Football Hall of Fame, 2121 George Halas Dr NW, Canton, OH 44708, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-10-18"
+   },
+   "end": {
+    "date": "2025-10-19"
+   },
+   "transparency": "transparent",
+   "iCalUID": "1eifjno4fkjgsih7e30nmn8ftc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3517310820462942\"",
+   "id": "03sqpqm38laqt1r0o5nka911fj",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDNzcXBxbTM4bGFxdDFyMG81bmthOTExZmogbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-09-22T23:48:52.000Z",
+   "updated": "2025-09-23T19:23:30.231Z",
+   "summary": "MNAC Holiday Party 🎄",
+   "description": "Our yearly holiday party, open to all MNAC members. Check discord for info.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-13T18:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-13T23:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "03sqpqm38laqt1r0o5nka911fj@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3517312204948542\"",
+   "id": "4s0523nbbbko2mnebbs1ikdrq4",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHMwNTIzbmJiYmtvMm1uZWJiczFpa2RycTQgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-07-02T21:43:27.000Z",
+   "updated": "2025-09-23T19:35:02.474Z",
+   "summary": "New Member Fall Intro Class",
+   "description": "[[home event]]\n\nNew member introductory classes are conducted each quarter and provide an introduction to our team and the sport for our new members. Best part is, they're completely free! Registration for the fall class is closed, please sign-up for the winter class if interested.\n\nContact linden.holt@mn-armored-combat.org with any questions",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-09-28T13:45:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-09-28T15:45:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4s0523nbbbko2mnebbs1ikdrq4@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3518838687920990\"",
+   "id": "79gr0eukt8i7nffomdmck10bcf",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzlncjBldWt0OGk3bmZmb21kbWNrMTBiY2ZfMjAyNDA1MDdUMjMzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2023-01-31T05:04:27.000Z",
+   "updated": "2025-10-02T15:35:43.960Z",
+   "summary": "MNAC Board Meeting",
+   "description": "The monthly board meeting of Minnesota Armored Combat, held in the Wyverns Discord. Any and all MNAC members are welcome to sit in.",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-05-07T18:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-05-07T19:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=MONTHLY;UNTIL=20250304T055959Z;BYDAY=1TU"
+   ],
+   "iCalUID": "79gr0eukt8i7nffomdmck10bcf@google.com",
+   "sequence": 2,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3518838687920990\"",
+   "id": "79gr0eukt8i7nffomdmck10bcf_20241001T233000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzlncjBldWt0OGk3bmZmb21kbWNrMTBiY2ZfMjAyNDEwMDFUMjMzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2023-01-31T05:04:27.000Z",
+   "updated": "2025-10-02T15:35:43.960Z",
+   "summary": "MNAC Board Meeting",
+   "description": "The monthly board meeting of Minnesota Armored Combat, held in the Wyverns Discord. Any and all MNAC members are welcome to sit in.",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-10-01T18:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-10-01T19:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "79gr0eukt8i7nffomdmck10bcf",
+   "originalStartTime": {
+    "dateTime": "2024-10-01T18:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "79gr0eukt8i7nffomdmck10bcf@google.com",
+   "sequence": 3,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3518838687920990\"",
+   "id": "79gr0eukt8i7nffomdmck10bcf_20250108T003000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzlncjBldWt0OGk3bmZmb21kbWNrMTBiY2ZfMjAyNTAxMDhUMDAzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2023-01-31T05:04:27.000Z",
+   "updated": "2025-10-02T15:35:43.960Z",
+   "summary": "MNAC Board Meeting",
+   "description": "The monthly board meeting of Minnesota Armored Combat, held in the Wyverns Discord. Any and all MNAC members are welcome to sit in.",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-01-07T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-01-07T19:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "79gr0eukt8i7nffomdmck10bcf",
+   "originalStartTime": {
+    "dateTime": "2025-01-07T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "79gr0eukt8i7nffomdmck10bcf@google.com",
+   "sequence": 3,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3518838687920990\"",
+   "id": "79gr0eukt8i7nffomdmck10bcf_20250205T003000Z",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzlncjBldWt0OGk3bmZmb21kbWNrMTBiY2ZfMjAyNTAyMDVUMDAzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2023-01-31T05:04:27.000Z",
+   "updated": "2025-10-02T15:35:43.960Z",
+   "summary": "MNAC Board Meeting",
+   "description": "The monthly board meeting of Minnesota Armored Combat, held in the Wyverns Discord. Any and all MNAC members are welcome to sit in.",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-02-05T21:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-02-05T22:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "79gr0eukt8i7nffomdmck10bcf",
+   "originalStartTime": {
+    "dateTime": "2025-02-04T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "79gr0eukt8i7nffomdmck10bcf@google.com",
+   "sequence": 3,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3518838687920990\"",
+   "id": "79gr0eukt8i7nffomdmck10bcf_R20250305T003000",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzlncjBldWt0OGk3bmZmb21kbWNrMTBiY2ZfMjAyNTAzMDVUMDAzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2023-01-31T05:04:27.000Z",
+   "updated": "2025-10-02T15:35:43.960Z",
+   "summary": "MNAC Board Meeting",
+   "description": "The monthly board meeting of Minnesota Armored Combat, held in the Wyverns Discord. Any and all MNAC members are welcome to sit in.",
+   "creator": {
+    "email": "spence.fasching@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-03-04T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-03-04T19:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=MONTHLY;UNTIL=20251007T045959Z;BYDAY=1TU"
+   ],
+   "iCalUID": "79gr0eukt8i7nffomdmck10bcf_R20250305T003000@google.com",
+   "sequence": 2,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3522136750916094\"",
+   "id": "063nirbubmkhh7d7uaesva7pk7",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDYzbmlyYnVibWtoaDdkN3VhZXN2YTdwazcgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-10-21T17:39:35.000Z",
+   "updated": "2025-10-21T17:39:35.458Z",
+   "summary": "Brewlabs Battle: Minnesota vs. Iowa",
+   "description": "\u003cspan dir=\"auto\"\u003e\u003cbr\u003e[[home event]]\u003cbr\u003e\u003cbr\u003eLeaves and axes fall this season as Iowa's The New Order comes up to challenge the Twin Cities Wyverns! Watch 5v5 Buhurt fights and women's profights at Bauhaus Brew Labs. Live full-force armored combat with real steel weapons and armor. Come thirsty for violence.\u003cbr\u003e\u003cbr\u003eDoors @ 4, Fights @ 5\u003cbr\u003eFree admission\u003c/span\u003e",
+   "location": "Bauhaus Brew Labs, 1315 Tyler St NE, Minneapolis, MN 55413, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-10-21T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-10-21T22:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "063nirbubmkhh7d7uaesva7pk7@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3522463461176126\"",
+   "id": "1eiuncuqcd5e6ra2cphgjrvrck",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWVpdW5jdXFjZDVlNnJhMmNwaGdqcnZyY2sgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-10-23T15:02:10.000Z",
+   "updated": "2025-10-23T15:02:10.588Z",
+   "summary": "Brewlabs Battle",
+   "description": "\u003cspan dir=\"auto\"\u003e\u003cbr\u003eLeaves and axes fall this season as Iowa's The New Order comes up to challenge the Twin Cities Wyverns! Watch 5v5 Buhurt fights and women's profights at Bauhaus Brew Labs. Live full-force armored combat with real steel weapons and armor. Come thirsty for violence.\u003cbr\u003e\u003cbr\u003eDoors @ 4, Fights @ 5\u003cbr\u003eFree admission\u003c/span\u003e",
+   "location": "Bauhaus Brew Labs, 1315 Tyler St NE, Minneapolis, MN 55413, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2025-11-08"
+   },
+   "end": {
+    "date": "2025-11-09"
+   },
+   "transparency": "transparent",
+   "iCalUID": "1eiuncuqcd5e6ra2cphgjrvrck@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3524410451504670\"",
+   "id": "v4hukvj2gpmce3jg3e4603r2t7",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=djRodWt2ajJncG1jZTNqZzNlNDYwM3IydDdfMjAyNTEwMDZUMjMwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2023-01-31T05:04:27.000Z",
+   "updated": "2025-11-03T21:27:05.752Z",
+   "summary": "MNAC Board Meeting",
+   "description": "The monthly board meeting of Minnesota Armored Combat, held in the Wyverns Discord. Any and all MNAC members are welcome to sit in.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-10-06T18:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-10-06T19:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=MONTHLY;BYDAY=1MO"
+   ],
+   "iCalUID": "v4hukvj2gpmce3jg3e4603r2t7@google.com",
+   "sequence": 3,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3531522002938526\"",
+   "id": "10bkq4fksdig43v2vm25go6ct5",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MTBia3E0ZmtzZGlnNDN2MnZtMjVnbzZjdDUgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-12-15T01:08:29.000Z",
+   "updated": "2025-12-15T01:10:01.469Z",
+   "summary": "Winter New Member Class",
+   "description": "[[home event]] \u003cbr\u003eNew member introductory classes are conducted each quarter and provide an introduction to our team and the sport for our new members. Best part is, they're completely free! \u003cbr\u003e\u003cbr\u003eIf you're interested in joining our team and attending this lesson please \u003ca href=\"https://forms.gle/WtdBQeAHT7afYf7U7\" target=\"_blank\"\u003e\u003cu\u003efill out the intake form \u003c/u\u003e\u003c/a\u003eand details will be provided via email. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-01-25T13:45:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-01-25T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "10bkq4fksdig43v2vm25go6ct5@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3531522360620030\"",
+   "id": "70g3f07gdm4cd94elpt2l8sjbf",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzBnM2YwN2dkbTRjZDk0ZWxwdDJsOHNqYmYgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-11-17T15:16:28.000Z",
+   "updated": "2025-12-15T01:13:00.310Z",
+   "summary": "TEST EVENT Carolina Carnage",
+   "description": "[[away event]]\n\nThe Wyverns are headed to the Medieval Combat USA conference championships to compete in tier 1 against the very best teams in the country!",
+   "location": "T. Ed Garrison Arena, 1101 W Queen St, Pendleton, SC 29670, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-02-06"
+   },
+   "end": {
+    "date": "2026-02-09"
+   },
+   "transparency": "transparent",
+   "iCalUID": "70g3f07gdm4cd94elpt2l8sjbf@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703950600126\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTAyMDlUMTgwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2025-12-27T16:12:55.300Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-02-09T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-02-09T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=SU"
+   ],
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 3,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703950600126\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20250420T170000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTA0MjBUMTcwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2025-12-27T16:12:55.300Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-20T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-20T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-04-20T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703950600126\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20250427T170000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTA0MjdUMTcwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2025-12-27T16:12:55.300Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-27T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-27T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-04-27T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703950600126\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20250727T170000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTA3MjdUMTcwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2025-12-27T16:12:55.300Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-07-27T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-07-27T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-07-27T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703950600126\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20250907T170000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTA5MDdUMTcwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2025-12-27T16:12:55.300Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-09-07T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-09-07T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-09-07T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTAyMDJUMjAwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-02-02T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-02-02T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=SU"
+   ],
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20250420T190000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTA0MjBUMTkwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-20T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-20T15:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-04-20T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20250427T190000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTA0MjdUMTkwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-04-27T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-04-27T15:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-04-27T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20250629T190000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTA2MjlUMTkwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-06-29T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-06-29T15:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-06-29T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20250727T190000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTA3MjdUMTkwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-07-27T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-07-27T15:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-07-27T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20250907T190000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTA5MDdUMTkwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-09-07T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-09-07T15:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-09-07T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20250928T190000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTA5MjhUMTkwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-09-28T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-09-28T15:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-09-28T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3533703957982718\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20260118T200000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNjAxMThUMjAwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2025-12-27T16:12:58.991Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-01-18T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-01-18T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2026-01-18T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3534212020167614\"",
+   "id": "6tsp6aro78d73d8bb1404ckqsm",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnRzcDZhcm83OGQ3M2Q4YmIxNDA0Y2txc21fMjAyNTA5MTdUMjMzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2025-09-23T19:16:55.000Z",
+   "updated": "2025-12-30T14:46:50.083Z",
+   "summary": "Advanced Practice",
+   "description": "Advanced practice is open to all dues-paying MNAC members in good standing. \n\nAdvanced practice conducted in soft kit, and is focused on dynamic practice of techniques with a focus on high intensity and high reps. Minimal instruction is given and its assumed that attendees have a basic grasp of buhurt concepts.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-09-17T18:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-09-17T20:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=WE"
+   ],
+   "transparency": "transparent",
+   "iCalUID": "6tsp6aro78d73d8bb1404ckqsm@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3534404013848062\"",
+   "id": "7fsh6jsuordnbhiog1kiu15h8g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N2ZzaDZqc3VvcmRuYmhpb2cxa2l1MTVoOGcgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-12-31T17:26:11.000Z",
+   "updated": "2025-12-31T17:26:46.924Z",
+   "summary": "St Patrick's Brawl",
+   "description": "[[away]]The Wyverns kick off their 2026 Buhurt International season facing off against the best teams in the midwest!\u003cbr\u003e\u003cbr\u003e\u003ca href=\"https://www.facebook.com/events/1994000864504937/\"\u003eMore info on facebook\u003c/a\u003e",
+   "location": "Fowling Warehouse Omaha, 5585 N 90th St, Omaha, NE 68134, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-03-28"
+   },
+   "end": {
+    "date": "2026-03-29"
+   },
+   "transparency": "transparent",
+   "iCalUID": "7fsh6jsuordnbhiog1kiu15h8g@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3534783122717118\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20251109T180000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTExMDlUMTgwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2026-01-02T22:06:01.358Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-11-09T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-11-09T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-11-09T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3534785534006334\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20251109T200000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTExMDlUMjAwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2026-01-02T22:26:07.003Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-11-09T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-11-09T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-11-09T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3537000617041086\"",
+   "id": "0q9k0rs6sfofp8968if872sjb9",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MHE5azByczZzZm9mcDg5NjhpZjg3MnNqYjkgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-01-15T18:03:42.000Z",
+   "updated": "2026-01-15T18:05:08.520Z",
+   "summary": "Wyverns vs. Stags @ DRBF",
+   "description": "[[home]]The Wyverns return to Dirty Rotten Bikerfest - this time with friends! The Milwaukee Iron Stags will be making the trek west to duke it out for glory in a multi-hour tournament of both single and group fights. \u003cbr\u003e\u003cbr\u003eEvent times TBD\u003cbr\u003e\u003cbr\u003eDRBF event registration required to attend: \u003ca href=\"https://www.dirtyrottenbikerfest.com/\"\u003etickets and info here\u003c/a\u003e.",
+   "location": "Mille Lacs County Fairgrounds, 1400 N 3rd St, Princeton, MN 55371, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-05-02T12:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-05-02T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "0q9k0rs6sfofp8968if872sjb9@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3540102641554366\"",
+   "id": "6tsp6aro78d73d8bb1404ckqsm_20251225T003000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnRzcDZhcm83OGQ3M2Q4YmIxNDA0Y2txc21fMjAyNTEyMjVUMDAzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2025-09-23T19:16:55.000Z",
+   "updated": "2026-02-02T16:55:20.777Z",
+   "summary": "Advanced Practice",
+   "description": "Advanced practice is open to all dues-paying MNAC members in good standing. \n\nAdvanced practice conducted in soft kit, and is focused on dynamic practice of techniques with a focus on high intensity and high reps. Minimal instruction is given and its assumed that attendees have a basic grasp of buhurt concepts.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-24T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-24T20:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "6tsp6aro78d73d8bb1404ckqsm",
+   "originalStartTime": {
+    "dateTime": "2025-12-24T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6tsp6aro78d73d8bb1404ckqsm@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3541474302416222\"",
+   "id": "3f5vujs0l62dag3ecthltps2ue",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2Y1dnVqczBsNjJkYWczZWN0aGx0cHMydWUgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-02-10T15:25:50.000Z",
+   "updated": "2026-02-10T15:25:51.208Z",
+   "summary": "MNAC Meeting - War in the North Planning",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-02-16T18:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-02-16T19:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "3f5vujs0l62dag3ecthltps2ue@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3541898826033694\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20260125T200000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNjAxMjVUMjAwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2026-02-13T02:23:33.016Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-01-25T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-01-25T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2026-01-25T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544080109638142\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20251221T180000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTEyMjFUMTgwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2026-02-25T17:20:54.819Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-21T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-21T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-12-21T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544080850109150\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20251221T200000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTEyMjFUMjAwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2026-02-25T17:27:05.054Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-21T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-21T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-12-21T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544082592499646\"",
+   "id": "an3kqdgatri7ato8nt5g6i0vlt_20251228T200000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YW4za3FkZ2F0cmk3YXRvOG50NWc2aTB2bHRfMjAyNTEyMjhUMjAwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2022-04-30T04:06:23.000Z",
+   "updated": "2026-02-25T17:41:36.249Z",
+   "summary": "Fundamentals Practice",
+   "description": "Sunday practice is only open to MNAC members. It is conducted out of steel, and focuses on buhurt fundamentals. Bring workout clothes and a water bottle.\u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility routine, 30 minute warmup/cardio, 30 minutes of grappling drills, and 30 minutes of soft-kit sparring. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "Spence Fasching",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-28T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-28T15:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "an3kqdgatri7ato8nt5g6i0vlt",
+   "originalStartTime": {
+    "dateTime": "2025-12-28T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "an3kqdgatri7ato8nt5g6i0vlt@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544085790765662\"",
+   "id": "4r9urggu4uinqr3i4bve1heiun_20251228T180000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NHI5dXJnZ3U0dWlucXIzaTRidmUxaGVpdW5fMjAyNTEyMjhUMTgwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-10-28T15:29:55.000Z",
+   "updated": "2026-02-25T18:08:15.382Z",
+   "summary": "Flowers of Battle Practice",
+   "description": "Practice for MNAC's women's division team, The Flowers of Battle. Open to all femme-identifying individuals. \u003cbr\u003e\u003cbr\u003ePractice usually consists of a mobility and conditioning routine, following by striking/grappling drills and instruction. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:spence.fasching@mn-armored-combat.org\" target=\"_blank\"\u003eamy.jo.hopfensperger@mn-armored-combat.org\u003c/a\u003e with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-28T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-28T14:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "4r9urggu4uinqr3i4bve1heiun",
+   "originalStartTime": {
+    "dateTime": "2025-12-28T12:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "4r9urggu4uinqr3i4bve1heiun@google.com",
+   "sequence": 4,
+   "guestsCanInviteOthers": false,
+   "guestsCanSeeOtherGuests": false,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544414079633374\"",
+   "id": "2f9vmjdrrqk5o88pha4g51u3e7",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MmY5dm1qZHJycWs1bzg4cGhhNGc1MXUzZTdfMjAyNDA5MjFUMTUwMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2024-09-19T16:59:20.000Z",
+   "updated": "2026-02-27T15:43:59.816Z",
+   "summary": "Steel Practice",
+   "description": "Saturday steel practice is open to all dues-paying MNAC members in good standing. \n\nSteel practice is focused on 1v1 formats, advanced melee skills, and sparring. \n\nContact linden.holt@mn-armored-combat.org with any questions.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2024-09-21T10:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2024-09-21T12:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=SA"
+   ],
+   "iCalUID": "2f9vmjdrrqk5o88pha4g51u3e7@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544589565191102\"",
+   "id": "6tsp6aro78d73d8bb1404ckqsm_20260101T003000Z",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnRzcDZhcm83OGQ3M2Q4YmIxNDA0Y2txc21fMjAyNjAxMDFUMDAzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2025-09-23T19:16:55.000Z",
+   "updated": "2026-02-28T16:06:22.595Z",
+   "summary": "Advanced Practice",
+   "description": "Advanced practice is open to all dues-paying MNAC members in good standing. \n\nAdvanced practice conducted in soft kit, and is focused on dynamic practice of techniques with a focus on high intensity and high reps. Minimal instruction is given and its assumed that attendees have a basic grasp of buhurt concepts.",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-31T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-31T20:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurringEventId": "6tsp6aro78d73d8bb1404ckqsm",
+   "originalStartTime": {
+    "dateTime": "2025-12-31T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6tsp6aro78d73d8bb1404ckqsm@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3544806849002142\"",
+   "id": "5f8fc47okjlq8m27i4jt49a4g6",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NWY4ZmM0N29ramxxOG0yN2k0anQ0OWE0ZzZfMjAyNTEyMDlUMDAzMDAwWiBtbi1hcm1vcmVkLWNvbWJhdC5vcmdfNnRhcWhpaXBmbDFzZjE5ZW9ramhqMm5kdGNAZw",
+   "created": "2025-12-06T03:21:25.000Z",
+   "updated": "2026-03-01T22:17:04.501Z",
+   "summary": "Profight Practice",
+   "description": "Profight practice is open to all dues-paying MNAC members in good standing. \n\nLead by AMCF middleweight champion Alex King:\n\n\"We would start with fundamentals in soft kit and progress from there. Each practice will build on the last (each week will have a new terminal learning objective) with the goal of transitioning to hard kit practical application of skills. \n\nThe ultimate goal would be to prepare you for next seasons profights and developing your own individual style of fighting. \n\nIf you have interest in profighting it would benefit you to try to make it to all.\"",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2025-12-08T18:30:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2025-12-08T20:00:00-06:00",
+    "timeZone": "America/Chicago"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20260302T055959Z;BYDAY=MO"
+   ],
+   "iCalUID": "5f8fc47okjlq8m27i4jt49a4g6@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545119410499326\"",
+   "id": "7md54m05nepspk3chiuehn9tuk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=N21kNTRtMDVuZXBzcGszY2hpdWVobjl0dWsgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-01-13T15:47:16.000Z",
+   "updated": "2026-03-03T17:41:45.249Z",
+   "summary": "TEST EVENT Armored Combat at Bauhaus Brewlabs",
+   "description": "[[home]]The Twin Cities Wyverns and The Flowers of Battle return to Bauhaus brewery to bring NE the full-steel violence you crave! This time with warmer weather (we hope) and more bartenders to keep pace with the big crowds, you won't wanna miss it!\n\nFree admission, event is outside. \n\nParticipants:\n1pm - Load list @ gym\n2pm - Setup\n4pm - Doors / fighter meeting\n5pm - Fights start\n6-630pm Intermission\n8pm - Last fights & start teardown\nOff site by 9-930pm",
+   "location": "Bauhaus Brew Labs, 1315 Tyler St NE, Minneapolis, MN 55413, USA",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-03-21T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-03-21T19:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "7md54m05nepspk3chiuehn9tuk@google.com",
+   "sequence": 3,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545993447271614\"",
+   "id": "2bokt2auugos7rm421tk3hs2ln",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MmJva3QyYXV1Z29zN3JtNDIxdGszaHMybG4gbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-12-08T19:06:32.000Z",
+   "updated": "2026-03-08T19:05:23.635Z",
+   "summary": "Surly Brewing - Group Melees",
+   "description": "\u003cspan\u003e\u003cbr\u003e[[home]] The Flowers and Wyverns takeover Surly Brewing! Come watch more steel on steel violence on Surly's patio with plenty of viewing room and free admission! \u003cbr\u003e \u003cbr\u003eParticipants:\u003cbr\u003e2pm - setup\u003cbr\u003e4pm - doors / final checks\u003cbr\u003e5pm - fights start\u003cbr\u003e6-630pm Intermission\u003cbr\u003e8pm - last fights &amp; start teardown\u003cbr\u003eoff site by 9-930pm \u003c/span\u003e",
+   "location": "520 Malcolm Ave SE, Minneapolis, MN 55414, USA",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-05-30T14:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-05-30T20:30:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "2bokt2auugos7rm421tk3hs2ln@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545993850319294\"",
+   "id": "0pe1ntkbe6qn3f6g6qg94aauhm",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MHBlMW50a2JlNnFuM2Y2ZzZxZzk0YWF1aG0gbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2025-12-08T19:19:31.000Z",
+   "updated": "2026-03-08T19:08:45.159Z",
+   "summary": "Sociable Cider Werks - Armored Combat Melees",
+   "description": "\u003cspan\u003e\u003cbr\u003e[[Home]]Armored Combat has landed at Sociable Ciderworks in NE! Come enjoy the spring air with the smells of steel, sweat, leather, and metal on metal violence!\u003cbr\u003e \u003cbr\u003eThis is a free show and open to all ages! \u003cbr\u003e \u003cbr\u003e2pm - Setup\u003cbr\u003e4pm - Doors / Fighter safety meeting\u003cbr\u003e5pm - Fights start\u003cbr\u003e6-630pm Intermission\u003cbr\u003e8pm - Last fights &amp; start teardown\u003c/span\u003e",
+   "location": "Sociable Cider Werks, 1500 Fillmore St NE, Minneapolis, MN 55413, USA",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-04-11T16:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-04-11T20:00:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "transparency": "transparent",
+   "iCalUID": "0pe1ntkbe6qn3f6g6qg94aauhm@google.com",
+   "sequence": 2,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994207158142\"",
+   "id": "6sfflr5kr9bttj0mjqe0nndsj3",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NnNmZmxyNWtyOWJ0dGowbWpxZTBubmRzajMgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:11:43.000Z",
+   "updated": "2026-03-08T19:11:43.579Z",
+   "summary": "Gilded Hearts Ball ",
+   "description": "[[Home]] Come join your favorite knights at the Gilded Hearts Ball hosted by Second Star Events as they teach the basics of sword fighting and put on exclusive 1v1 fights only for this event!\u003cbr\u003e \u003cbr\u003e\u003ca href=\"https://www.secondstarevents.com/pages/gilded-hear-ball\"\u003ehttps://www.secondstarevents.com/pages/gilded-hear-ball\u003c/a\u003e",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-06-13"
+   },
+   "end": {
+    "date": "2026-06-14"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6sfflr5kr9bttj0mjqe0nndsj3@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994686025566\"",
+   "id": "3ktf5g5rvjv99702mmf384punr",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M2t0ZjVnNXJ2anY5OTcwMm1tZjM4NHB1bnIgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:15:42.000Z",
+   "updated": "2026-03-08T19:15:43.012Z",
+   "summary": "Red River Valley - Profights and Duels",
+   "description": "[[Away]]A small group of elite knights show off their skill and endurance at Fargo's Renaissance Festival. Watch these fighters push themselves to their limit for your entertainment!",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-08-08"
+   },
+   "end": {
+    "date": "2026-08-10"
+   },
+   "transparency": "transparent",
+   "iCalUID": "3ktf5g5rvjv99702mmf384punr@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994705238238\"",
+   "id": "28iek6548qcksa0ps5i09l4a8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjhpZWs2NTQ4cWNrc2EwcHM1aTA5bDRhOG8gbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:15:52.000Z",
+   "updated": "2026-03-08T19:15:52.619Z",
+   "summary": "Red River Valley - Profights and Duels",
+   "description": "[[Away]]A small group of elite knights show off their skill and endurance at Fargo&#39;s Renaissance Festival. Watch these fighters push themselves to their limit for your entertainment!",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-08-15"
+   },
+   "end": {
+    "date": "2026-08-17"
+   },
+   "transparency": "transparent",
+   "iCalUID": "28iek6548qcksa0ps5i09l4a8o@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994824042558\"",
+   "id": "1eou8jg5h4jpeav34mkdgpefpn",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MWVvdThqZzVoNGpwZWF2MzRta2RncGVmcG4gbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:16:51.000Z",
+   "updated": "2026-03-08T19:16:52.021Z",
+   "summary": "- Event TBD - ",
+   "description": "[[Home]]",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-08-21"
+   },
+   "end": {
+    "date": "2026-08-23"
+   },
+   "transparency": "transparent",
+   "iCalUID": "1eou8jg5h4jpeav34mkdgpefpn@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994875674942\"",
+   "id": "6d67vq9n1kb1jp101nmmqsko81",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmQ2N3ZxOW4xa2IxanAxMDFubW1xc2tvODEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:17:17.000Z",
+   "updated": "2026-03-08T19:17:17.837Z",
+   "summary": "Cream City Clash",
+   "description": "[[Away]]",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-09-05"
+   },
+   "end": {
+    "date": "2026-09-06"
+   },
+   "transparency": "transparent",
+   "iCalUID": "6d67vq9n1kb1jp101nmmqsko81@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994935469086\"",
+   "id": "246kqhej71sn905mq8rchp892h",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjQ2a3FoZWo3MXNuOTA1bXE4cmNocDg5MmggbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:17:47.000Z",
+   "updated": "2026-03-08T19:17:47.734Z",
+   "summary": "- Event TBD -",
+   "description": "[[Home]]",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-09-11"
+   },
+   "end": {
+    "date": "2026-09-13"
+   },
+   "transparency": "transparent",
+   "iCalUID": "246kqhej71sn905mq8rchp892h@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3545994993455294\"",
+   "id": "47iioo0gikcoc1oucs4st234nf",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NDdpaW9vMGdpa2NvYzFvdWNzNHN0MjM0bmYgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-03-08T19:18:16.000Z",
+   "updated": "2026-03-08T19:18:16.727Z",
+   "summary": "- Event TBD -",
+   "description": "[[Home]]",
+   "creator": {
+    "email": "matthew.reyer@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "date": "2026-10-03"
+   },
+   "end": {
+    "date": "2026-10-04"
+   },
+   "transparency": "transparent",
+   "iCalUID": "47iioo0gikcoc1oucs4st234nf@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3547859132877310\"",
+   "id": "7569b98rhf91r7sou62r9fherq",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NzU2OWI5OHJoZjkxcjdzb3U2MnI5ZmhlcnEgbW4tYXJtb3JlZC1jb21iYXQub3JnXzZ0YXFoaWlwZmwxc2YxOWVva2poajJuZHRjQGc",
+   "created": "2026-01-20T16:29:40.000Z",
+   "updated": "2026-03-19T14:12:46.438Z",
+   "summary": "Spring New Member Class",
+   "description": "[[home event]] \u003cbr\u003eNew member introductory classes are conducted each quarter and provide an introduction to our team and the sport for our new members. Best part is, they're completely free!\u003cbr\u003e\u003cbr\u003eIf you're interested in joining our team and attending this lesson please \u003ca href=\"https://forms.gle/1vaKG5hASQaUMabS8\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003efill out the intake form \u003c/u\u003e\u003c/u\u003e\u003c/a\u003eand details will be provided via email. \u003cbr\u003e\u003cbr\u003eContact \u003ca href=\"mailto:linden.holt@mn-armored-combat.org\" target=\"_blank\"\u003e\u003cu\u003e\u003cu\u003elinden.holt@mn-armored-combat.org\u003c/u\u003e\u003c/u\u003e\u003c/a\u003e with any questions",
+   "creator": {
+    "email": "linden.holt@mn-armored-combat.org"
+   },
+   "organizer": {
+    "email": "mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com",
+    "displayName": "MN Armored Combat Calendar",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2026-04-05T13:45:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "end": {
+    "dateTime": "2026-04-05T15:45:00-05:00",
+    "timeZone": "America/Chicago"
+   },
+   "iCalUID": "7569b98rhf91r7sou62r9fherq@google.com",
+   "sequence": 1,
+   "eventType": "default"
+  }
+ ]
+}

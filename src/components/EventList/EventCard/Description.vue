@@ -1,12 +1,20 @@
 <script setup lang="ts">
+import { computed } from "vue";
+import DOMPurify from "dompurify";
 import { matchEventType } from "../utils";
 import CollapsibleSection from "../../shared/CollapsibleSection.vue";
 
 const props = defineProps<{ description: string; expanded: boolean }>();
 
-const audienceDesc = (props.description?.split("Participants:")[0] ?? '').replace(matchEventType, '');
+const audienceDesc = computed(() => {
+  const rawAudienceDesc = (props.description?.split("Participants:")[0] ?? "").replace(matchEventType, "");
+  return DOMPurify.sanitize(rawAudienceDesc);
+});
 
-const participantSection = props.description?.split("Participants:")[1] ?? undefined;
+const participantSection = computed(() => {
+  const rawParticipantSection = props.description?.split("Participants:")[1] ?? "";
+  return rawParticipantSection.length > 0 ? DOMPurify.sanitize(rawParticipantSection) : undefined;
+});
 
 
 </script>

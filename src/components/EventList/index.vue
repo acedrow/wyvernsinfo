@@ -65,27 +65,18 @@ onMounted(async () => {
   const futureEvents = result.items.filter((calItem: CalendarEvent) =>
     calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime).isAfter(dayjs().subtract(1, 'day')))
 
-  //remove duplicate events - keeping only the oldest copy of each event
-  const uniqueEvents: CalendarEvent[] = []
-  const parsedEventSummaries: String[] = []
-
-  futureEvents.forEach((fevent: CalendarEvent) => {
-    if (parsedEventSummaries.includes(fevent.summary)) {
-      return;
+  // Remove duplicate events by summary, keeping the earliest start date.
+  const uniqueEventsBySummary = new Map<string, CalendarEvent>()
+  futureEvents.forEach((event: CalendarEvent) => {
+    const existingEvent = uniqueEventsBySummary.get(event.summary)
+    if (!existingEvent) {
+      uniqueEventsBySummary.set(event.summary, event)
+      return
     }
-    const copies: CalendarEvent[] = []
-
-    //collect all events with the identical summaries in copies
-    futureEvents.forEach((compareEvent: CalendarEvent) => {
-      if (fevent.summary === compareEvent.summary) {
-        copies.push(compareEvent)
-      }
-    })
-    copies.sort(sortEventsByStartTimeNoRecur);
-
-    uniqueEvents.push(copies[0])
-    parsedEventSummaries.push(fevent.summary)
+    const sorted = [existingEvent, event].sort(sortEventsByStartTimeNoRecur)
+    uniqueEventsBySummary.set(event.summary, sorted[0])
   })
+  const uniqueEvents = Array.from(uniqueEventsBySummary.values())
 
   uniqueEvents.sort(sortEventsByStartTime)
 

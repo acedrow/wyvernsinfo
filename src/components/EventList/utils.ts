@@ -116,19 +116,20 @@ export const getEventType = (event: CalendarEvent) => {
     return EventType.none;
   }
   const tag = [...event?.description?.matchAll(matchEventType)]?.[0]?.[1];
-  
+
   const matchAgainst = tag ?? event?.summary.toLowerCase()
 
-  if (matchAgainst?.includes("home")) {
+
+  if (matchAgainst?.toLowerCase().includes("home")) {
     return EventType.home;
   }
-  if (matchAgainst?.includes("away")) {
+  if (matchAgainst?.toLowerCase().includes("away")) {
     return EventType.away;
   }
-  if (matchAgainst?.includes("practice")) {
+  if (matchAgainst?.toLowerCase().includes("practice")) {
     return EventType.practice;
   }
-  if (matchAgainst?.includes("meeting")) {
+  if (matchAgainst?.toLowerCase().includes("meeting")) {
     return EventType.meeting;
   }
   return EventType.none;

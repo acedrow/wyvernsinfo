@@ -5,6 +5,7 @@ import dayjs from 'dayjs/esm/index.js'
 import { CalendarEvent } from './types';
 import { filterEvents, sortEventsByStartTime, sortEventsByStartTimeNoRecur } from './utils';
 import FilterButton from './FilterButton.vue';
+import dummyEvents from '../../../dummy-events.json';
 
 let allEvents: Ref<CalendarEvent[]> = ref([])
 let shownEvents: Ref<CalendarEvent[]> = ref([])
@@ -52,14 +53,26 @@ watch([showEvents, showPractices, showMeetings, showAll, allEvents], ([nEvents, 
 })
 
 onMounted(async () => {
-  const baseUrl = "https://www.googleapis.com/calendar/v3/calendars"
-  const result = await fetch(
-    baseUrl + `/mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com/events?key=${import.meta.env.VITE_CALENDAR_API_KEY}&timeMin=2024-07-23T00:00:00Z`
-  ).then((response) =>
-    response.json()
-  ).catch((error) => {
-    errorMessage.value = error.message
-  })
+  let result: { items: CalendarEvent[] } | undefined
+
+  if (import.meta.env.DEV) {
+    result = dummyEvents as { items: CalendarEvent[] }
+  } else {
+    const baseUrl = "https://www.googleapis.com/calendar/v3/calendars"
+    result = await fetch(
+      baseUrl + `/mn-armored-combat.org_6taqhiipfl1sf19eokjhj2ndtc@group.calendar.google.com/events?key=${import.meta.env.VITE_CALENDAR_API_KEY}&timeMin=2024-07-23T00:00:00Z`
+    ).then((response) =>
+      response.json()
+    ).catch((error) => {
+      errorMessage.value = error.message
+      return undefined
+    })
+  }
+
+  if (!result?.items?.length) {
+    allEvents.value = []
+    return
+  }
 
   //only care about events in the future
   const futureEvents = result.items.filter((calItem: CalendarEvent) =>

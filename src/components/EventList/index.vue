@@ -75,8 +75,10 @@ onMounted(async () => {
   }
 
   //only care about events in the future
-  const futureEvents = result.items.filter((calItem: CalendarEvent) =>
-    calItem?.recurrence || dayjs(calItem?.start?.date ?? calItem?.start?.dateTime).isAfter(dayjs().subtract(1, 'day')))
+  const futureEvents = result.items.filter((calItem: CalendarEvent) => {
+    const startDateValue = calItem?.start?.date ?? calItem?.start?.dateTime
+    return calItem?.recurrence || (startDateValue ? dayjs(startDateValue).isAfter(dayjs().subtract(1, 'day')) : false)
+  })
 
   // Remove duplicate events by summary, keeping the earliest start date.
   const uniqueEventsBySummary = new Map<string, CalendarEvent>()

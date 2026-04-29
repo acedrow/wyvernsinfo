@@ -13,17 +13,19 @@ const timeFormat = 'h:mmA'
 const location = props.calEvent?.location
 const meetingLink = props.calEvent?.hangoutLink
 const mapsBaseUrl = 'https://www.google.com/maps/search/?api=1&query='
+const startDateTime = props.calEvent?.start?.dateTime
+const endDateTime = props.calEvent?.end?.dateTime
+const startDateValue = props.calEvent?.start?.date ?? startDateTime
+const endDateValue = props.calEvent?.end?.date ?? endDateTime
 
 const startDate =
-    dayjs(props.calEvent?.start.date
-        ?? props.calEvent?.start.dateTime).format(dateFormat)
+    startDateValue ? dayjs(startDateValue).format(dateFormat) : ''
 const endDate =
-    dayjs(props.calEvent?.end.date
-        ?? props.calEvent?.end.dateTime).format(dateFormat)
+    endDateValue ? dayjs(endDateValue).format(dateFormat) : ''
 
-const startTime = dayjs(props.calEvent?.start.dateTime).format(timeFormat)
+const startTime = startDateTime ? dayjs(startDateTime).format(timeFormat) : ''
 
-const endTime = dayjs(props.calEvent?.end.dateTime).format(timeFormat)
+const endTime = endDateTime ? dayjs(endDateTime).format(timeFormat) : ''
 const parsedRecurrence = props.calEvent?.recurrence?.[0] ?
     parseRecurrenceString(props.calEvent.recurrence[0]) : undefined
 </script>

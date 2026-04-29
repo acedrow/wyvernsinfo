@@ -1,6 +1,25 @@
 import dayjs from "dayjs";
 import { CalendarEvent, EventType } from "./types";
 
+const getStartDateValue = (event: CalendarEvent) =>
+  event?.start?.date ?? event?.start?.dateTime;
+
+const isBeforeByStart = (a: CalendarEvent, b: CalendarEvent): boolean => {
+  const aStart = getStartDateValue(a);
+  const bStart = getStartDateValue(b);
+
+  if (!aStart && !bStart) {
+    return false;
+  }
+  if (!aStart) {
+    return false;
+  }
+  if (!bStart) {
+    return true;
+  }
+  return dayjs(aStart).isBefore(dayjs(bStart));
+};
+
 export function ordinal_suffix_of(i: number) {
   let j = i % 10,
     k = i % 100;
@@ -58,19 +77,11 @@ export const sortEventsByStartTime = (a: CalendarEvent, b: CalendarEvent): numbe
     }
     return -1;
   }
-  return dayjs(a?.start?.date ?? a.start.dateTime).isBefore(
-    dayjs(b?.start?.date ?? b.start.dateTime)
-  )
-    ? -1
-    : 1;
+  return isBeforeByStart(a, b) ? -1 : 1;
 };
 
 export const sortEventsByStartTimeNoRecur = (a: CalendarEvent, b: CalendarEvent): number => {
-  return dayjs(a?.start?.date ?? a.start.dateTime).isBefore(
-    dayjs(b?.start?.date ?? b.start.dateTime)
-  )
-    ? -1
-    : 1;
+  return isBeforeByStart(a, b) ? -1 : 1;
 };
 
 export const filterEvents = (

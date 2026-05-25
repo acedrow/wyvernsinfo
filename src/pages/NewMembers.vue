@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
+const openDivMembershipFormUrl = import.meta.env.VITE_OPEN_INTAKE_SURVEY_LINK;
+const womenDivMembershipFormUrl = import.meta.env.VITE_WOMENS_INTAKE_SURVEY_LINK;
 </script>
 
 <!-- TODO: collapsible sections with expand/collapse all at top -->
@@ -16,9 +17,13 @@ const membershipFormUrl = import.meta.env.VITE_INTAKE_SURVEY_LINK;
             MNAC is an inclusive organization and we welcome anyone aged 18+ regardless of gender, sexual orientation,
             or background. So long as you have determination and love in your heart, there is a place for you here.
             <br /> <br />
-            <b>The first step to get started with us is filling out our <a
-                    v-bind:href="`${membershipFormUrl}`">membership
-                    form</a>. We'll reach out via email with details.</b>
+            <b>The first step to get started with us is filling out the appropriate membership intake form:
+                <br /> <br />
+                <a v-bind:href="`${openDivMembershipFormUrl}`">Open division - Twin Cities Wyverns</a>
+                <br /> <br />
+                <a v-bind:href="`${womenDivMembershipFormUrl}`">Women's division - The Flowers of Battle</a>
+                <br /> <br />
+                We'll reach out via email with details.</b>
         </p>
 
         <h3>Your First Practice</h3>

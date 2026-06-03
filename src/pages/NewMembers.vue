@@ -10,20 +10,20 @@ const womenDivMembershipFormUrl = import.meta.env.VITE_WOMENS_INTAKE_SURVEY_LINK
         <h2>New Member Information</h2>
         <h3>Joining Minnesota Armored Combat</h3>
         <p>
-            Both the Twin Cities Wyverns open division team and the Flowers of Battle women's division team are looking
-            for new members! There are no tryouts or prior experience needed - so long as you're
-            willing to put in some work and learn something new, we will get you fighting.
+            The Twin Cities Wyverns open division team and Flowers of Battle women's division teams recruit new members
+            on a quarterly basis. No tryouts or prior experience are needed, but physical fitness goes a long way in our
+            sport.
             <br /> <br />
             MNAC is an inclusive organization and we welcome anyone aged 18+ regardless of gender, sexual orientation,
-            or background. So long as you have determination and love in your heart, there is a place for you here.
+            or background.
             <br /> <br />
-            <b>The first step to get started with us is filling out the appropriate membership intake form:
+            <b>The first step to get started with us is filling out the appropriate membership intake form:</b>
                 <br /> <br />
-                <a v-bind:href="`${openDivMembershipFormUrl}`">Open division - Twin Cities Wyverns</a>
+                <s><a v-bind:href="`${openDivMembershipFormUrl}`">Open division - Twin Cities Wyverns</a></s> Wyverns' summer new member class is full, check back in July to sign up for the Autumn class.
                 <br /> <br />
-                <a v-bind:href="`${womenDivMembershipFormUrl}`">Women's division - The Flowers of Battle</a>
+                <b><a v-bind:href="`${womenDivMembershipFormUrl}`">Women's division - The Flowers of Battle</a></b>
                 <br /> <br />
-                We'll reach out via email with details.</b>
+                <b>We'll reach out via email with details.</b>
         </p>
 
         <h3>Your First Practice</h3>
@@ -31,9 +31,8 @@ const womenDivMembershipFormUrl = import.meta.env.VITE_WOMENS_INTAKE_SURVEY_LINK
         <p>
             Our introductory practices are held quarterly and aim to provide you with an
             introduction to our team and the basics of our sport. These lessons include a mobility routine, cardio
-            warmup,
-            and grappling instruction drills. Intro practice is completely free, and all you need to bring are athletic
-            clothes and a water bottle.
+            warmup, and grappling instruction drills. Intro practice is completely free, and all you need to bring are
+            athletic clothes and a water bottle.
 
         </p>
 

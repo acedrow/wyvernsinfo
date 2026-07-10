@@ -19,7 +19,7 @@ const womenDivMembershipFormUrl = import.meta.env.VITE_WOMENS_INTAKE_SURVEY_LINK
             <br /> <br />
             <b>The first step to get started with us is filling out the appropriate membership intake form:</b>
                 <br /> <br />
-                <s><a v-bind:href="`${openDivMembershipFormUrl}`">Open division - Twin Cities Wyverns</a></s> Wyverns' summer new member class is full, check back in July to sign up for the Autumn class.
+                <b><a v-bind:href="`${openDivMembershipFormUrl}`">Open division - Twin Cities Wyverns</a></b>
                 <br /> <br />
                 <b><a v-bind:href="`${womenDivMembershipFormUrl}`">Women's division - The Flowers of Battle</a></b>
                 <br /> <br />

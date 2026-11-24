@@ -18,6 +18,12 @@ const endDateTime = props.calEvent?.end?.dateTime
 const startDateValue = props.calEvent?.start?.date ?? startDateTime
 const endDateValue = props.calEvent?.end?.date ?? endDateTime
 
+// Google Calendar's all-day end date is exclusive.
+const isSingleDayAllDayEvent = Boolean(
+    props.calEvent?.start?.date && props.calEvent?.end?.date &&
+    dayjs(endDateValue).isSame(dayjs(startDateValue).add(1, 'day'), 'day')
+)
+
 const startDate =
     startDateValue ? dayjs(startDateValue).format(dateFormat) : ''
 const endDate =
@@ -34,7 +40,7 @@ const parsedRecurrence = props.calEvent?.recurrence?.[0] ?
     <div class="row date-time">
         <span v-if="!parsedRecurrence" class="data-span date">
             <span>{{ startDate }}</span>
-            <span v-if="startDate !== endDate"> {{ " - " + endDate }}</span>
+            <span v-if="!isSingleDayAllDayEvent && startDate !== endDate"> {{ " - " + endDate }}</span>
         </span>
         <span v-if="parsedRecurrence" class="data-span date">
             {{ parsedRecurrence }}

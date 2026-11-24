@@ -7,7 +7,7 @@ import { parseRecurrenceString } from '../utils';
 const props = defineProps<{ calEvent: CalendarEvent }>()
 dayjs.extend(advancedFormat);
 
-const dateFormat = "MMMM Do"
+const dateFormat = "dddd, MMMM Do"
 const timeFormat = 'h:mmA'
 
 const location = props.calEvent?.location
